@@ -1,12 +1,7 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\VirtualDissection",
-    "\\VirtualDissection-build",
-    "\\VirtualDissection\\out",
-    "\\VirtualDissection\\out\\build",
-    "\\VirtualDissection\\VD"
+    ""
   ],
-  "SelectedNode": "\\VirtualDissection-build\\VirtualDissection.sln",
+  "SelectedNode": "\\VirtualDissection.sln (VirtualDissection\\VirtualDissection.sln)",
   "PreviewInSolutionExplorer": false
 }

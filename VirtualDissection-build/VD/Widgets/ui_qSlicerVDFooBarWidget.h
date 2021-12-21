@@ -45,7 +45,7 @@ public:
     void retranslateUi(QWidget *qSlicerVDFooBarWidget)
     {
         qSlicerVDFooBarWidget->setWindowTitle(QCoreApplication::translate("qSlicerVDFooBarWidget", "Virtual Dissection", nullptr));
-        FooBarButton->setText(QCoreApplication::translate("qSlicerVDFooBarWidget", "NewBatch", nullptr));
+        FooBarButton->setText(QCoreApplication::translate("qSlicerVDFooBarWidget", "VDUpdateExe", nullptr));
     } // retranslateUi
 
 };

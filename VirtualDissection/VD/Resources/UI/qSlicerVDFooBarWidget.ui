@@ -20,7 +20,7 @@
    <item>
     <widget class="QPushButton" name="FooBarButton">
      <property name="text">
-      <string>NewBatch</string>
+      <string>VDUpdateExe</string>
      </property>
     </widget>
    </item>

@@ -21,6 +21,7 @@
 // FooBar Widgets includes
 #include "qSlicerVDFooBarWidget.h"
 #include "ui_qSlicerVDFooBarWidget.h"
+#include "HD/hd.h"
 
 //-----------------------------------------------------------------------------
 /// \ingroup Slicer_QtModules_VD
