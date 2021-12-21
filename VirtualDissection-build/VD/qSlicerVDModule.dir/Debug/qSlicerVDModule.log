@@ -1,0 +1,14 @@
+﻿  Generating moc_qSlicerVDModule.cpp
+  Generating moc_qSlicerVDModuleWidget.cpp
+  Generating ui_qSlicerVDModuleWidget.h
+  Generating qrc_qSlicerVDModule.cpp
+  Generating qrc_qSlicer.cpp
+  Building Custom Rule C:/dev/SlicerFirstExtension/VirtualDissection/VD/CMakeLists.txt
+  qSlicerVDModule.cxx
+  qSlicerVDModuleWidget.cxx
+  moc_qSlicerVDModule.cpp
+  moc_qSlicerVDModuleWidget.cpp
+  qrc_qSlicerVDModule.cpp
+  qrc_qSlicer.cpp
+  Generating Code...
+LINK : fatal error LNK1104: cannot open file '..\lib\Slicer-4.13\qt-loadable-modules\Debug\qSlicerVDModuleWidgets.lib'

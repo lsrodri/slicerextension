@@ -1,0 +1,6 @@
+﻿  Building Custom Rule C:/dev/SlicerFirstExtension/VirtualDissection/VD/CMakeLists.txt
+  qSlicerVDModuleCxxTests.cxx
+  qSlicerVDModuleGenericTest.cxx
+  qSlicerVDModuleWidgetGenericTest.cxx
+  Generating Code...
+LINK : fatal error LNK1104: cannot open file '..\lib\Slicer-4.13\qt-loadable-modules\Debug\qSlicerVDModule.lib'

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\dev\SlicerFirstExtension\VirtualDissection\VD\Logic\vtkSlicerVDLogic.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\dev\SlicerFirstExtension\VirtualDissection\VD\Logic\vtkSlicerVDLogic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\dev\SlicerFirstExtension\VirtualDissection\CMakeFiles\8ff5120e0a681c150b418708828fb7ad\vtkSlicerVDModuleLogicHierarchy.txt.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\dev\SlicerFirstExtension\VirtualDissection\VD\Logic\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\D\S4R\Slicer-build\vtkSlicerVDModuleLogicHierarchy.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{78BF20D2-0DDC-3E74-B1BD-0893E3A7BB0A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{C79FE0C8-E225-3AFB-9741-1345BD92D0CC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{3388C126-128F-3B80-A97B-10957699EA28}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

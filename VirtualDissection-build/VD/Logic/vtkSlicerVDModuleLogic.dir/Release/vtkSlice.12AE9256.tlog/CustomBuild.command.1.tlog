@@ -1,0 +1,20 @@
+^C:\DEV\SLICERFIRSTEXTENSION\VIRTUALDISSECTION-BUILD\CMAKEFILES\8FF5120E0A681C150B418708828FB7AD\VTKSLICERVDMODULELOGICHIERARCHY.TXT.RULE
+setlocal
+C:\D\S4R\VTK-build\bin\Release\vtkWrapHierarchy-8.2.exe @vtkSlicerVDModuleLogicHierarchy.args -o C:/D/S4R/Slicer-build/vtkSlicerVDModuleLogicHierarchy.txt vtkSlicerVDModuleLogicHierarchy.data @vtkSlicerVDModuleLogicOtherHierarchyFiles.args
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\DEV\SLICERFIRSTEXTENSION\VIRTUALDISSECTION\VD\LOGIC\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/dev/SlicerFirstExtension/VirtualDissection -BC:/dev/SlicerFirstExtension/VirtualDissection-build --check-stamp-file C:/dev/SlicerFirstExtension/VirtualDissection-build/VD/Logic/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

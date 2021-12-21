@@ -1,0 +1,13 @@
+# Target labels
+ qSlicerVDModuleWidgets
+# Source files and their labels
+C:/dev/SlicerFirstExtension/VirtualDissection/VD/Widgets/qSlicerVDFooBarWidget.cxx
+C:/dev/SlicerFirstExtension/VirtualDissection/VD/Widgets/qSlicerVDFooBarWidget.h
+C:/dev/SlicerFirstExtension/VirtualDissection-build/VD/Widgets/moc_qSlicerVDFooBarWidget.cpp
+C:/dev/SlicerFirstExtension/VirtualDissection-build/VD/Widgets/ui_qSlicerVDFooBarWidget.h
+C:/dev/SlicerFirstExtension/VirtualDissection-build/VD/Widgets/qrc_qSlicerVDModule.cpp
+C:/dev/SlicerFirstExtension/VirtualDissection-build/VD/Widgets/qrc_qSlicer.cpp
+C:/dev/SlicerFirstExtension/VirtualDissection-build/CMakeFiles/7bff5b9e8e2cba86be2a62ed9622b9cb/moc_qSlicerVDFooBarWidget.cpp.rule
+C:/dev/SlicerFirstExtension/VirtualDissection/VD/Resources/UI/qSlicerVDFooBarWidget.ui
+C:/dev/SlicerFirstExtension/VirtualDissection/VD/Resources/qSlicerVDModule.qrc
+C:/D/S4/Resources/qSlicer.qrc

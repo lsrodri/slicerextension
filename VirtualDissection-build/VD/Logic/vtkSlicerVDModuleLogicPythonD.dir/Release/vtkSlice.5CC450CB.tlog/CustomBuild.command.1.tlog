@@ -1,0 +1,30 @@
+^C:\DEV\SLICERFIRSTEXTENSION\VIRTUALDISSECTION-BUILD\CMAKEFILES\40D8B95E6C67C1D3605CAD8914A91581\VTKSLICERVDLOGICPYTHON.CXX.RULE
+setlocal
+C:\D\S4R\VTK-build\bin\Release\vtkWrapPython-8.2.exe @C:/dev/SlicerFirstExtension/VirtualDissection-build/VD/Logic/vtkSlicerVDModuleLogicPython.Release.args -o C:/dev/SlicerFirstExtension/VirtualDissection-build/VD/Logic/vtkSlicerVDLogicPython.cxx C:/dev/SlicerFirstExtension/VirtualDissection/VD/Logic/vtkSlicerVDLogic.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\DEV\SLICERFIRSTEXTENSION\VIRTUALDISSECTION-BUILD\CMAKEFILES\40D8B95E6C67C1D3605CAD8914A91581\VTKSLICERVDMODULELOGICPYTHONINIT.CXX.RULE
+setlocal
+C:\D\S4R\VTK-build\bin\Release\vtkWrapPythonInit-8.2.exe C:/dev/SlicerFirstExtension/VirtualDissection-build/VD/Logic/vtkSlicerVDModuleLogicPythonInit.data C:/dev/SlicerFirstExtension/VirtualDissection-build/VD/Logic/vtkSlicerVDModuleLogicPythonInit.cxx C:/dev/SlicerFirstExtension/VirtualDissection-build/VD/Logic/vtkSlicerVDModuleLogicPythonInitImpl.cxx
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\DEV\SLICERFIRSTEXTENSION\VIRTUALDISSECTION\VD\LOGIC\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/dev/SlicerFirstExtension/VirtualDissection -BC:/dev/SlicerFirstExtension/VirtualDissection-build --check-stamp-file C:/dev/SlicerFirstExtension/VirtualDissection-build/VD/Logic/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,38 @@
+[DEBUG][Qt] 09.12.2021 19:22:28 [] (unknown:0) - Session start time .......: 2021-12-09 19:22:28
+[DEBUG][Qt] 09.12.2021 19:22:28 [] (unknown:0) - Slicer version ...........: 4.11.20200930 (revision 29402 / 002be18) win-amd64 - installed release
+[DEBUG][Qt] 09.12.2021 19:22:28 [] (unknown:0) - Operating system .........: Windows /  Professional / (Build 19042, Code Page 65001) - 64-bit
+[DEBUG][Qt] 09.12.2021 19:22:28 [] (unknown:0) - Memory ...................: 32702 MB physical, 37566 MB virtual
+[DEBUG][Qt] 09.12.2021 19:22:28 [] (unknown:0) - CPU ......................: GenuineIntel , 16 cores, 16 logical processors
+[DEBUG][Qt] 09.12.2021 19:22:28 [] (unknown:0) - VTK configuration ........: OpenGL2 rendering, TBB threading
+[DEBUG][Qt] 09.12.2021 19:22:28 [] (unknown:0) - Qt configuration .........: version 5.15.1, with SSL, requested OpenGL 3.2 (compatibility profile)
+[DEBUG][Qt] 09.12.2021 19:22:28 [] (unknown:0) - Developer mode enabled ...: no
+[DEBUG][Qt] 09.12.2021 19:22:28 [] (unknown:0) - Prefer executable CLI ....: yes
+[DEBUG][Qt] 09.12.2021 19:22:28 [] (unknown:0) - Application path .........: C:/ProgramData/NA-MIC/Slicer 4.11.20200930/bin
+[DEBUG][Qt] 09.12.2021 19:22:28 [] (unknown:0) - Additional module paths ..: (none)
+[DEBUG][Python] 09.12.2021 19:22:31 [Python] (C:\ProgramData\NA-MIC\Slicer 4.11.20200930\lib\Python\Lib\site-packages\pydicom\datadict.py:432) - Reversing DICOM dictionary so can look up tag from a keyword...
+[DEBUG][Python] 09.12.2021 19:22:33 [Python] (C:\ProgramData\NA-MIC\Slicer 4.11.20200930\lib\Slicer-4.11\qt-scripted-modules\SubjectHierarchyPlugins\AbstractScriptedSubjectHierarchyPlugin.py:36) - Scripted subject hierarchy plugin registered: Annotations
+[DEBUG][Python] 09.12.2021 19:22:34 [Python] (C:\ProgramData\NA-MIC\Slicer 4.11.20200930\lib\Slicer-4.11\qt-scripted-modules\SubjectHierarchyPlugins\AbstractScriptedSubjectHierarchyPlugin.py:36) - Scripted subject hierarchy plugin registered: SegmentEditor
+[DEBUG][Python] 09.12.2021 19:22:34 [Python] (C:\ProgramData\NA-MIC\Slicer 4.11.20200930\lib\Slicer-4.11\qt-scripted-modules\SubjectHierarchyPlugins\AbstractScriptedSubjectHierarchyPlugin.py:36) - Scripted subject hierarchy plugin registered: SegmentStatistics
+[DEBUG][Qt] 09.12.2021 19:22:34 [] (unknown:0) - Switch to module:  "Welcome"
+[ERROR][VTK] 09.12.2021 19:22:41 [vtkITKArchetypeDiffusionTensorImageReaderFile (0000017F12E76DE0)] (D:\D\S\Slicer-0\Libs\vtkITK\vtkITKArchetypeDiffusionTensorImageReaderFile.cxx:166) - There is more than one file, use the vtkITKArchetypeImageSeriesReader instead
+[INFO][VTK] 09.12.2021 19:22:41 [vtkMRMLVolumeArchetypeStorageNode (0000017F1935B760)] (D:\D\S\Slicer-0\Libs\MRML\Core\vtkMRMLVolumeArchetypeStorageNode.cxx:473) - Loaded volume from file: C:/Users/admin/Downloads/1_2_resliced/Reslice of cropped-10000.tif. Dimensions: 487x1026x372. Number of components: 1. Pixel type: unsigned char.
+[INFO][VTK] 09.12.2021 19:22:41 [vtkMRMLScene (0000017F19356760)] (D:\D\S\Slicer-0\Libs\MRML\Core\vtkMRMLScene.cxx:316) - vtkMRMLScene::Clear
+[DEBUG][Qt] 09.12.2021 19:22:41 [] (unknown:0) - "Volume" Reader has successfully read the file "C:/Users/admin/Downloads/1_2_resliced/Reslice of cropped-10000.tif" "[0.54s]"
+[DEBUG][Qt] 09.12.2021 19:22:56 [] (unknown:0) - Switch to module:  "Data"
+[ERROR][VTK] 09.12.2021 19:23:03 [vtkSubjectHierarchyItem (0000017F146ABF80)] (D:\D\S\Slicer-0\Libs\MRML\Core\vtkMRMLSubjectHierarchyNode.cxx:1070) - GetChildByPositionUnderParent: Failed to find subject hierarchy item under parent Scene at position 3
+[INFO][Python] 09.12.2021 19:23:25 [Python] (C:/ProgramData/NA-MIC/Slicer 4.11.20200930/bin/../lib/Slicer-4.11/qt-scripted-modules/DICOMScalarVolumePlugin.py:574) - Export scalar volume 'Reslice of cropped-10000' to directory C:/Users/admin/Documents/SlicerDICOMDatabase/giacomo/ScalarVolume_9
+[INFO][Stream] 09.12.2021 19:23:25 [] (unknown:0) - Export scalar volume 'Reslice of cropped-10000' to directory C:/Users/admin/Documents/SlicerDICOMDatabase/giacomo/ScalarVolume_9
+[DEBUG][Qt] 09.12.2021 19:23:25 [] (unknown:0) - Found CommandLine Module, target is  C:/ProgramData/NA-MIC/Slicer 4.11.20200930/bin/../lib/Slicer-4.11/cli-modules/CreateDICOMSeries.exe
+[DEBUG][Qt] 09.12.2021 19:23:25 [] (unknown:0) - ModuleType: CommandLineModule
+[DEBUG][Qt] 09.12.2021 19:23:25 [] (unknown:0) - Create a DICOM Series command line: 
+
+C:/ProgramData/NA-MIC/Slicer 4.11.20200930/bin/../lib/Slicer-4.11/cli-modules/CreateDICOMSeries.exe --studyID SLICER10001 --studyComments None --modality CT --manufacturer Unknown manufacturer --model Unknown model --seriesNumber 1 --seriesDescription No series description --rescaleIntercept 0.0000 --rescaleSlope 1.0000 --dicomDirectory C:/Users/admin/Documents/SlicerDICOMDatabase/giacomo/ScalarVolume_9 --dicomPrefix IMG --dicomNumberFormat %04d --type Short C:/dev/SlicerFirstExtension/VirtualDissection-build/lib/Slicer-4.13/qt-loadable-modules/Release/DAEHG_vtkMRMLScalarVolumeNodeB.nrrd
+[DEBUG][Qt] 09.12.2021 19:23:27 [] (unknown:0) - Create a DICOM Series standard output:
+
+<filter-start>
+<filter-comment> "Creating DICOM "
+</filter-start>
+[DEBUG][Qt] 09.12.2021 19:23:27 [] (unknown:0) - Create a DICOM Series completed without errors
+[INFO][VTK] 09.12.2021 19:23:27 [vtkMRMLScene (0000017F135DD1A0)] (D:\D\S\Slicer-0\Libs\MRML\Core\vtkMRMLScene.cxx:316) - vtkMRMLScene::Clear
+[WARNING][VTK] 10.12.2021 16:00:11 [vtkMRMLVolumeArchetypeStorageNode (0000017F1935B760)] (D:\D\S\Slicer-0\Libs\MRML\Core\vtkMRMLVolumeArchetypeStorageNode.cxx:546) - WriteData: removing old version of file C:/Users/admin/Downloads/1_2_resliced/Reslice of cropped-10000.tif
+[DEBUG][Qt] 10.12.2021 16:00:22 [] (unknown:0) - Switch to module:  ""

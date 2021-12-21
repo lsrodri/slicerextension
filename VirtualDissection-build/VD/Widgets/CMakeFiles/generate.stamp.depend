@@ -1,0 +1,7 @@
+# CMake generation dependency list for this directory.
+C:/D/S4/CMake/qSlicerExport.h.in
+C:/D/S4/Resources/qSlicer.qrc
+C:/D/S4R/CTK/CMake/ctkMacroWrapPythonQtModuleInit.cpp.in
+C:/D/S4R/CTK/Utilities/CMake/FindPythonQt.cmake
+C:/dev/SlicerFirstExtension/VirtualDissection/VD/Resources/qSlicerVDModule.qrc
+C:/dev/SlicerFirstExtension/VirtualDissection/VD/Widgets/CMakeLists.txt

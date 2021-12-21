@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\dev\SlicerFirstExtension\VirtualDissection\CMakeFiles\36e7a087bb88b62729c1582683e2e621\PACKAGE_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{78BF20D2-0DDC-3E74-B1BD-0893E3A7BB0A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,22 @@
+[DEBUG][Qt] 16.09.2021 17:44:07 [] (unknown:0) - Session start time .......: 2021-09-16 17:44:07
+[DEBUG][Qt] 16.09.2021 17:44:07 [] (unknown:0) - Slicer version ...........: 4.11.20200930 (revision 29402 / 002be18) win-amd64 - installed release
+[DEBUG][Qt] 16.09.2021 17:44:07 [] (unknown:0) - Operating system .........: Windows /  Professional / (Build 19042, Code Page 65001) - 64-bit
+[DEBUG][Qt] 16.09.2021 17:44:07 [] (unknown:0) - Memory ...................: 32702 MB physical, 39587 MB virtual
+[DEBUG][Qt] 16.09.2021 17:44:07 [] (unknown:0) - CPU ......................: GenuineIntel , 16 cores, 16 logical processors
+[DEBUG][Qt] 16.09.2021 17:44:07 [] (unknown:0) - VTK configuration ........: OpenGL2 rendering, TBB threading
+[DEBUG][Qt] 16.09.2021 17:44:07 [] (unknown:0) - Qt configuration .........: version 5.15.1, with SSL, requested OpenGL 3.2 (compatibility profile)
+[DEBUG][Qt] 16.09.2021 17:44:07 [] (unknown:0) - Developer mode enabled ...: no
+[DEBUG][Qt] 16.09.2021 17:44:07 [] (unknown:0) - Prefer executable CLI ....: yes
+[DEBUG][Qt] 16.09.2021 17:44:07 [] (unknown:0) - Application path .........: C:/ProgramData/NA-MIC/Slicer 4.11.20200930/bin
+[DEBUG][Qt] 16.09.2021 17:44:07 [] (unknown:0) - Additional module paths ..: (none)
+[DEBUG][Python] 16.09.2021 17:44:08 [Python] (C:\ProgramData\NA-MIC\Slicer 4.11.20200930\lib\Python\Lib\site-packages\pydicom\datadict.py:432) - Reversing DICOM dictionary so can look up tag from a keyword...
+[DEBUG][Python] 16.09.2021 17:44:09 [Python] (C:\ProgramData\NA-MIC\Slicer 4.11.20200930\lib\Slicer-4.11\qt-scripted-modules\SubjectHierarchyPlugins\AbstractScriptedSubjectHierarchyPlugin.py:36) - Scripted subject hierarchy plugin registered: Annotations
+[DEBUG][Python] 16.09.2021 17:44:09 [Python] (C:\ProgramData\NA-MIC\Slicer 4.11.20200930\lib\Slicer-4.11\qt-scripted-modules\SubjectHierarchyPlugins\AbstractScriptedSubjectHierarchyPlugin.py:36) - Scripted subject hierarchy plugin registered: SegmentEditor
+[DEBUG][Python] 16.09.2021 17:44:09 [Python] (C:\ProgramData\NA-MIC\Slicer 4.11.20200930\lib\Slicer-4.11\qt-scripted-modules\SubjectHierarchyPlugins\AbstractScriptedSubjectHierarchyPlugin.py:36) - Scripted subject hierarchy plugin registered: SegmentStatistics
+[DEBUG][Qt] 16.09.2021 17:44:09 [] (unknown:0) - Switch to module:  "Welcome"
+[INFO][VTK] 16.09.2021 17:44:09 [vtkMRMLScene (00000160644A66B0)] (D:\D\S\Slicer-0\Libs\MRML\Core\vtkMRMLScene.cxx:762) - vtkMRMLScene::Import
+[INFO][VTK] 16.09.2021 17:44:09 [vtkMRMLVolumeArchetypeStorageNode (0000016014D9DA80)] (D:\D\S\Slicer-0\Libs\MRML\Core\vtkMRMLVolumeArchetypeStorageNode.cxx:473) - Loaded volume from file: C:/Users/admin/Seafile/Library/Code/Sample Volume/sliceslg/transvrs/tr0000.jpg. Dimensions: 3010x2048x1. Number of components: 1. Pixel type: unsigned char.
+[INFO][VTK] 16.09.2021 17:44:13 [vtkMRMLVolumeArchetypeStorageNode (0000016014D9DC70)] (D:\D\S\Slicer-0\Libs\MRML\Core\vtkMRMLVolumeArchetypeStorageNode.cxx:473) - Loaded volume from file: C:/Users/admin/Documents/resampled.nrrd. Dimensions: 1505x1024x392. Number of components: 1. Pixel type: float.
+[DEBUG][Qt] 16.09.2021 17:44:13 [] (unknown:0) - "MRML Scene" Reader has successfully read the file "C:/Users/admin/Documents/2021-05-24-Scene.mrml" "[4.14s]"
+[DEBUG][Qt] 16.09.2021 17:44:25 [] (unknown:0) - Switch to module:  "SegmentEditor"
+[DEBUG][Qt] 16.09.2021 17:44:38 [] (unknown:0) - Switch to module:  ""

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\dev\SlicerFirstExtension\VirtualDissection-build\CMakeFiles\8ff5120e0a681c150b418708828fb7ad\vtkSlicerVDModuleLogicHierarchy.txt.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\dev\SlicerFirstExtension\VirtualDissection-build\CMakeFiles\feb38005ee949b76c4f7d787c4966e9a\vtkSlicerVDModuleLogicHierarchy.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\dev\SlicerFirstExtension\VirtualDissection\VD\Logic\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\dev\SlicerFirstExtension\VirtualDissection-build\VD\Logic\CMakeFiles\vtkSlicerVDModuleLogicHierarchy" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{21EF5AC2-0A80-320B-94E5-03A4D05CE722}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

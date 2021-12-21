@@ -1,0 +1,55 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/dev/SlicerFirstExtension/VirtualDissection/VD/qSlicerVDModule.cxx"
+		},
+		{
+			"file" : "C:/dev/SlicerFirstExtension/VirtualDissection/VD/qSlicerVDModule.h"
+		},
+		{
+			"file" : "C:/dev/SlicerFirstExtension/VirtualDissection/VD/qSlicerVDModuleWidget.cxx"
+		},
+		{
+			"file" : "C:/dev/SlicerFirstExtension/VirtualDissection/VD/qSlicerVDModuleWidget.h"
+		},
+		{
+			"file" : "C:/dev/SlicerFirstExtension/VirtualDissection-build/VD/moc_qSlicerVDModule.cpp"
+		},
+		{
+			"file" : "C:/dev/SlicerFirstExtension/VirtualDissection-build/VD/moc_qSlicerVDModuleWidget.cpp"
+		},
+		{
+			"file" : "C:/dev/SlicerFirstExtension/VirtualDissection-build/VD/ui_qSlicerVDModuleWidget.h"
+		},
+		{
+			"file" : "C:/dev/SlicerFirstExtension/VirtualDissection-build/VD/qrc_qSlicerVDModule.cpp"
+		},
+		{
+			"file" : "C:/dev/SlicerFirstExtension/VirtualDissection-build/VD/qrc_qSlicer.cpp"
+		},
+		{
+			"file" : "C:/dev/SlicerFirstExtension/VirtualDissection-build/CMakeFiles/6c19af9acf749184fa76054f724a3679/moc_qSlicerVDModule.cpp.rule"
+		},
+		{
+			"file" : "C:/dev/SlicerFirstExtension/VirtualDissection-build/CMakeFiles/6c19af9acf749184fa76054f724a3679/moc_qSlicerVDModuleWidget.cpp.rule"
+		},
+		{
+			"file" : "C:/dev/SlicerFirstExtension/VirtualDissection/VD/Resources/UI/qSlicerVDModuleWidget.ui"
+		},
+		{
+			"file" : "C:/dev/SlicerFirstExtension/VirtualDissection/VD/Resources/qSlicerVDModule.qrc"
+		},
+		{
+			"file" : "C:/D/S4/Resources/qSlicer.qrc"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"qSlicerVDModule"
+		],
+		"name" : "qSlicerVDModule"
+	}
+}

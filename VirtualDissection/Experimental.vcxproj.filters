@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\dev\SlicerFirstExtension\VirtualDissection\CMakeFiles\e65e4f5128f8334c16de5ed11f1d0c73\Experimental.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\dev\SlicerFirstExtension\VirtualDissection\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\dev\SlicerFirstExtension\VirtualDissection\CMakeFiles\Experimental" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{78BF20D2-0DDC-3E74-B1BD-0893E3A7BB0A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

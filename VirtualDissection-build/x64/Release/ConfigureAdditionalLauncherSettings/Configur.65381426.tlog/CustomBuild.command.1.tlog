@@ -1,0 +1,32 @@
+^C:\DEV\SLICERFIRSTEXTENSION\VIRTUALDISSECTION-BUILD\CMAKEFILES\B4BD20D8EA0136ECAFB1170A70884661\ADDITIONALLAUNCHERSETTINGS.INI.RULE
+setlocal
+cd C:\dev\SlicerFirstExtension\VirtualDissection-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_CFG_INTDIR:STRING=Release -P C:/dev/SlicerFirstExtension/VirtualDissection-build/AdditionalLauncherSettings-configure.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\DEV\SLICERFIRSTEXTENSION\VIRTUALDISSECTION-BUILD\CMAKEFILES\DC7AB4FBA758ABA9A732E4F81550134A\CONFIGUREADDITIONALLAUNCHERSETTINGS.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\DEV\SLICERFIRSTEXTENSION\VIRTUALDISSECTION\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/dev/SlicerFirstExtension/VirtualDissection -BC:/dev/SlicerFirstExtension/VirtualDissection-build --check-stamp-file C:/dev/SlicerFirstExtension/VirtualDissection-build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

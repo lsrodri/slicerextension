@@ -1,0 +1,66 @@
+[DEBUG][Qt] 01.12.2021 14:17:26 [] (unknown:0) - Session start time .......: 2021-12-01 14:17:26
+[DEBUG][Qt] 01.12.2021 14:17:26 [] (unknown:0) - Slicer version ...........: 4.11.20200930 (revision 29402 / 002be18) win-amd64 - installed release
+[DEBUG][Qt] 01.12.2021 14:17:26 [] (unknown:0) - Operating system .........: Windows /  Professional / (Build 19042, Code Page 65001) - 64-bit
+[DEBUG][Qt] 01.12.2021 14:17:26 [] (unknown:0) - Memory ...................: 32702 MB physical, 37566 MB virtual
+[DEBUG][Qt] 01.12.2021 14:17:26 [] (unknown:0) - CPU ......................: GenuineIntel , 16 cores, 16 logical processors
+[DEBUG][Qt] 01.12.2021 14:17:26 [] (unknown:0) - VTK configuration ........: OpenGL2 rendering, TBB threading
+[DEBUG][Qt] 01.12.2021 14:17:26 [] (unknown:0) - Qt configuration .........: version 5.15.1, with SSL, requested OpenGL 3.2 (compatibility profile)
+[DEBUG][Qt] 01.12.2021 14:17:26 [] (unknown:0) - Developer mode enabled ...: no
+[DEBUG][Qt] 01.12.2021 14:17:26 [] (unknown:0) - Prefer executable CLI ....: yes
+[DEBUG][Qt] 01.12.2021 14:17:26 [] (unknown:0) - Application path .........: C:/ProgramData/NA-MIC/Slicer 4.11.20200930/bin
+[DEBUG][Qt] 01.12.2021 14:17:26 [] (unknown:0) - Additional module paths ..: (none)
+[DEBUG][Python] 01.12.2021 14:17:29 [Python] (C:\ProgramData\NA-MIC\Slicer 4.11.20200930\lib\Python\Lib\site-packages\pydicom\datadict.py:432) - Reversing DICOM dictionary so can look up tag from a keyword...
+[DEBUG][Python] 01.12.2021 14:17:32 [Python] (C:\ProgramData\NA-MIC\Slicer 4.11.20200930\lib\Slicer-4.11\qt-scripted-modules\SubjectHierarchyPlugins\AbstractScriptedSubjectHierarchyPlugin.py:36) - Scripted subject hierarchy plugin registered: Annotations
+[DEBUG][Python] 01.12.2021 14:17:33 [Python] (C:\ProgramData\NA-MIC\Slicer 4.11.20200930\lib\Slicer-4.11\qt-scripted-modules\SubjectHierarchyPlugins\AbstractScriptedSubjectHierarchyPlugin.py:36) - Scripted subject hierarchy plugin registered: SegmentEditor
+[DEBUG][Python] 01.12.2021 14:17:33 [Python] (C:\ProgramData\NA-MIC\Slicer 4.11.20200930\lib\Slicer-4.11\qt-scripted-modules\SubjectHierarchyPlugins\AbstractScriptedSubjectHierarchyPlugin.py:36) - Scripted subject hierarchy plugin registered: SegmentStatistics
+[DEBUG][Qt] 01.12.2021 14:17:33 [] (unknown:0) - Switch to module:  "Welcome"
+[INFO][VTK] 01.12.2021 14:18:18 [vtkMRMLScene (000001F57EA0E540)] (D:\D\S\Slicer-0\Libs\MRML\Core\vtkMRMLScene.cxx:762) - vtkMRMLScene::Import
+[INFO][VTK] 01.12.2021 14:18:18 [vtkMRMLVolumeArchetypeStorageNode (000001F52E0D18A0)] (D:\D\S\Slicer-0\Libs\MRML\Core\vtkMRMLVolumeArchetypeStorageNode.cxx:473) - Loaded volume from file: C:/Users/admin/Seafile/Library/Code/Sample Volume/sliceslg/sagittal/sag0000.jpg. Dimensions: 3010x1568x56. Number of components: 1. Pixel type: unsigned char.
+[INFO][VTK] 01.12.2021 14:18:28 [vtkMRMLVolumeArchetypeStorageNode (000001F52E0CEFF0)] (D:\D\S\Slicer-0\Libs\MRML\Core\vtkMRMLVolumeArchetypeStorageNode.cxx:473) - Loaded volume from file: C:/Users/admin/Seafile/Library/Code/Sample Volume/sliceslg/transvrs/tr0000.jpg. Dimensions: 3010x2048x784. Number of components: 1. Pixel type: unsigned char.
+[DEBUG][Qt] 01.12.2021 14:18:51 [] (unknown:0) - "MRML Scene" Reader has successfully read the file "C:/Users/admin/Documents/2021-09-16-Scene.mrml" "[33.62s]"
+[DEBUG][Qt] 01.12.2021 14:19:35 [] (unknown:0) - Switch to module:  "VolumeRendering"
+[INFO][VTK] 01.12.2021 14:19:35 [vtkMRMLScene (000001F5503FF6E0)] (D:\D\S\Slicer-0\Libs\MRML\Core\vtkMRMLScene.cxx:316) - vtkMRMLScene::Clear
+[INFO][VTK] 01.12.2021 14:19:35 [vtkMRMLScene (000001F5503FF6E0)] (D:\D\S\Slicer-0\Libs\MRML\Core\vtkMRMLScene.cxx:762) - vtkMRMLScene::Import
+[DEBUG][Qt] 01.12.2021 14:19:45 [] (unknown:0) - Switch to module:  "Data"
+[DEBUG][Qt] 01.12.2021 14:20:52 [] (unknown:0) - Switch to module:  "SegmentEditor"
+[INFO][VTK] 01.12.2021 14:24:47 [vtkMRMLScene (000001F57EA0E540)] (D:\D\S\Slicer-0\Libs\MRML\Core\vtkMRMLScene.cxx:316) - vtkMRMLScene::Clear
+[DEBUG][Qt] 01.12.2021 14:25:08 [] (unknown:0) - Switch to module:  "Data"
+[DEBUG][Qt] 01.12.2021 14:26:40 [] (unknown:0) - Switch to module:  "DICOM"
+[DEBUG][Qt] 01.12.2021 14:26:50 [] (unknown:0) - Switch to module:  "Welcome"
+[DEBUG][Python] 01.12.2021 14:26:53 [Python] (C:/ProgramData/NA-MIC/Slicer 4.11.20200930/bin/../lib/Slicer-4.11/qt-scripted-modules/SampleData.py:373) - <p>Status: <i>Idle</i></p>
+[DEBUG][Qt] 01.12.2021 14:26:53 [] (unknown:0) - Switch to module:  "SampleData"
+[DEBUG][Python] 01.12.2021 14:26:55 [Python] (C:/ProgramData/NA-MIC/Slicer 4.11.20200930/bin/../lib/Slicer-4.11/qt-scripted-modules/SampleData.py:373) - <b>Requesting download</b> <i>MR-head.nrrd</i> from https://github.com/Slicer/SlicerTestingData/releases/download/SHA256/cc211f0dfd9a05ca3841ce1141b292898b2dd2d3f08286affadf823a7e58df93 ...
+[DEBUG][Python] 01.12.2021 14:26:55 [Python] (C:/ProgramData/NA-MIC/Slicer 4.11.20200930/bin/../lib/Slicer-4.11/qt-scripted-modules/SampleData.py:373) - <i>Downloaded 648.0 KB (10% of 6.3 MB)...</i>
+[DEBUG][Python] 01.12.2021 14:26:55 [Python] (C:/ProgramData/NA-MIC/Slicer 4.11.20200930/bin/../lib/Slicer-4.11/qt-scripted-modules/SampleData.py:373) - <i>Downloaded 1.3 MB (20% of 6.3 MB)...</i>
+[DEBUG][Python] 01.12.2021 14:26:55 [Python] (C:/ProgramData/NA-MIC/Slicer 4.11.20200930/bin/../lib/Slicer-4.11/qt-scripted-modules/SampleData.py:373) - <i>Downloaded 1.9 MB (30% of 6.3 MB)...</i>
+[DEBUG][Python] 01.12.2021 14:26:55 [Python] (C:/ProgramData/NA-MIC/Slicer 4.11.20200930/bin/../lib/Slicer-4.11/qt-scripted-modules/SampleData.py:373) - <i>Downloaded 2.5 MB (40% of 6.3 MB)...</i>
+[DEBUG][Python] 01.12.2021 14:26:55 [Python] (C:/ProgramData/NA-MIC/Slicer 4.11.20200930/bin/../lib/Slicer-4.11/qt-scripted-modules/SampleData.py:373) - <i>Downloaded 3.2 MB (50% of 6.3 MB)...</i>
+[DEBUG][Python] 01.12.2021 14:26:56 [Python] (C:/ProgramData/NA-MIC/Slicer 4.11.20200930/bin/../lib/Slicer-4.11/qt-scripted-modules/SampleData.py:373) - <i>Downloaded 3.8 MB (60% of 6.3 MB)...</i>
+[DEBUG][Python] 01.12.2021 14:26:56 [Python] (C:/ProgramData/NA-MIC/Slicer 4.11.20200930/bin/../lib/Slicer-4.11/qt-scripted-modules/SampleData.py:373) - <i>Downloaded 4.4 MB (70% of 6.3 MB)...</i>
+[DEBUG][Python] 01.12.2021 14:26:56 [Python] (C:/ProgramData/NA-MIC/Slicer 4.11.20200930/bin/../lib/Slicer-4.11/qt-scripted-modules/SampleData.py:373) - <i>Downloaded 5.0 MB (80% of 6.3 MB)...</i>
+[DEBUG][Python] 01.12.2021 14:26:56 [Python] (C:/ProgramData/NA-MIC/Slicer 4.11.20200930/bin/../lib/Slicer-4.11/qt-scripted-modules/SampleData.py:373) - <i>Downloaded 5.7 MB (90% of 6.3 MB)...</i>
+[DEBUG][Python] 01.12.2021 14:26:56 [Python] (C:/ProgramData/NA-MIC/Slicer 4.11.20200930/bin/../lib/Slicer-4.11/qt-scripted-modules/SampleData.py:373) - <i>Downloaded 6.3 MB (100% of 6.3 MB)...</i>
+[DEBUG][Python] 01.12.2021 14:26:56 [Python] (C:/ProgramData/NA-MIC/Slicer 4.11.20200930/bin/../lib/Slicer-4.11/qt-scripted-modules/SampleData.py:373) - <b>Download finished</b>
+[DEBUG][Python] 01.12.2021 14:26:56 [Python] (C:/ProgramData/NA-MIC/Slicer 4.11.20200930/bin/../lib/Slicer-4.11/qt-scripted-modules/SampleData.py:373) - <b>Verifying checksum</b>
+[DEBUG][Python] 01.12.2021 14:26:56 [Python] (C:/ProgramData/NA-MIC/Slicer 4.11.20200930/bin/../lib/Slicer-4.11/qt-scripted-modules/SampleData.py:373) - <b>Checksum OK</b>
+[DEBUG][Python] 01.12.2021 14:26:56 [Python] (C:/ProgramData/NA-MIC/Slicer 4.11.20200930/bin/../lib/Slicer-4.11/qt-scripted-modules/SampleData.py:373) - <b>Requesting load</b> <i>MRHead</i> from C:/Users/admin/AppData/Local/Temp/Slicer/RemoteIO/MR-head.nrrd ...
+[DEBUG][Python] 01.12.2021 14:26:56 [Python] (C:/ProgramData/NA-MIC/Slicer 4.11.20200930/bin/../lib/Slicer-4.11/qt-scripted-modules/SampleData.py:373) - <b>Load finished</b>
+[INFO][VTK] 01.12.2021 14:26:56 [vtkMRMLVolumeArchetypeStorageNode (000001F52E225DE0)] (D:\D\S\Slicer-0\Libs\MRML\Core\vtkMRMLVolumeArchetypeStorageNode.cxx:473) - Loaded volume from file: C:/Users/admin/AppData/Local/Temp/Slicer/RemoteIO/MR-head.nrrd. Dimensions: 256x256x130. Number of components: 1. Pixel type: short.
+[INFO][VTK] 01.12.2021 14:26:56 [vtkMRMLScene (000001F54AAAC070)] (D:\D\S\Slicer-0\Libs\MRML\Core\vtkMRMLScene.cxx:316) - vtkMRMLScene::Clear
+[DEBUG][Qt] 01.12.2021 14:26:56 [] (unknown:0) - "Volume" Reader has successfully read the file "C:/Users/admin/AppData/Local/Temp/Slicer/RemoteIO/MR-head.nrrd" "[0.30s]"
+[DEBUG][Qt] 01.12.2021 14:27:02 [] (unknown:0) - Switch to module:  "SegmentEditor"
+[DEBUG][Qt] 01.12.2021 14:29:33 [] (unknown:0) - Switch to module:  "Data"
+[DEBUG][Qt] 01.12.2021 14:29:49 [] (unknown:0) - Switch to module:  "VolumeRendering"
+[DEBUG][Qt] 01.12.2021 14:32:44 [] (unknown:0) - Switch to module:  "Data"
+[DEBUG][Qt] 01.12.2021 14:33:30 [] (unknown:0) - Switch to module:  "VolumeRendering"
+[CRITICAL][Qt] 01.12.2021 14:33:42 [] (unknown:0) - The VTKEvent( 17000 ) triggered by vtkObject( vtkMRMLScalarVolumeNode )  doesn't return data of type vtkObject. 
+The slot ( "1onDisplayNodeModified(vtkObject*, vtkObject*)" ) owned by  QObject( "" )  may be incorrect.
+[CRITICAL][Qt] 01.12.2021 14:33:42 [] (unknown:0) - void __cdecl qSlicerSubjectHierarchyPluginLogic::onDisplayNodeModified(class vtkObject *,class vtkObject *) : Invalid object type calling display node modified event
+[CRITICAL][Qt] 01.12.2021 14:33:46 [] (unknown:0) - The VTKEvent( 17000 ) triggered by vtkObject( vtkMRMLScalarVolumeNode )  doesn't return data of type vtkObject. 
+The slot ( "1onDisplayNodeModified(vtkObject*, vtkObject*)" ) owned by  QObject( "" )  may be incorrect.
+[CRITICAL][Qt] 01.12.2021 14:33:46 [] (unknown:0) - void __cdecl qSlicerSubjectHierarchyPluginLogic::onDisplayNodeModified(class vtkObject *,class vtkObject *) : Invalid object type calling display node modified event
+[CRITICAL][Qt] 01.12.2021 14:33:48 [] (unknown:0) - The VTKEvent( 17000 ) triggered by vtkObject( vtkMRMLScalarVolumeNode )  doesn't return data of type vtkObject. 
+The slot ( "1onDisplayNodeModified(vtkObject*, vtkObject*)" ) owned by  QObject( "" )  may be incorrect.
+[CRITICAL][Qt] 01.12.2021 14:33:48 [] (unknown:0) - void __cdecl qSlicerSubjectHierarchyPluginLogic::onDisplayNodeModified(class vtkObject *,class vtkObject *) : Invalid object type calling display node modified event
+[DEBUG][Qt] 01.12.2021 14:34:28 [] (unknown:0) - Switch to module:  "SegmentEditor"
+[DEBUG][Qt] 01.12.2021 16:20:48 [] (unknown:0) - Switch to module:  ""

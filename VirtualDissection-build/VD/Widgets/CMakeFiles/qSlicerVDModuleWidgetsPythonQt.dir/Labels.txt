@@ -1,0 +1,8 @@
+# Target labels
+ qSlicerVDModuleWidgets
+# Source files and their labels
+C:/dev/SlicerFirstExtension/VirtualDissection-build/VD/Widgets/generated_cpp/osm_qSlicerVDModuleWidgets/osm_qSlicerVDModuleWidgets_init.cpp
+C:/dev/SlicerFirstExtension/VirtualDissection-build/VD/Widgets/generated_cpp/osm_qSlicerVDModuleWidgets/osm_qSlicerVDModuleWidgets_module_init.cpp
+C:/dev/SlicerFirstExtension/VirtualDissection-build/VD/Widgets/generated_cpp/osm_qSlicerVDModuleWidgets/moc_osm_qSlicerVDModuleWidgets.cpp
+C:/dev/SlicerFirstExtension/VirtualDissection-build/CMakeFiles/70ead37c9d8ecf1d8acaa708f306a504/osm_qSlicerVDModuleWidgets_init.cpp.rule
+C:/dev/SlicerFirstExtension/VirtualDissection-build/CMakeFiles/70ead37c9d8ecf1d8acaa708f306a504/moc_osm_qSlicerVDModuleWidgets.cpp.rule

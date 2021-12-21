@@ -1,0 +1,12 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppClean.targets(77,5): warning : Access to the path 'c:\dev\slicerfirstextension\virtualdissection-build\lib\slicer-4.13\qt-loadable-modules\release\qslicervdmodulewidgets.dll' is denied.
+  Generating moc_qSlicerVDFooBarWidget.cpp
+  Generating ui_qSlicerVDFooBarWidget.h
+  Generating qrc_qSlicerVDModule.cpp
+  Generating qrc_qSlicer.cpp
+  Building Custom Rule C:/dev/SlicerFirstExtension/VirtualDissection/VD/Widgets/CMakeLists.txt
+  qSlicerVDFooBarWidget.cxx
+  moc_qSlicerVDFooBarWidget.cpp
+  qrc_qSlicerVDModule.cpp
+  qrc_qSlicer.cpp
+  Generating Code...
+LINK : fatal error LNK1104: cannot open file 'C:\dev\SlicerFirstExtension\VirtualDissection-build\lib\Slicer-4.13\qt-loadable-modules\Release\qSlicerVDModuleWidgets.dll'

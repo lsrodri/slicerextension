@@ -1,0 +1,10 @@
+^C:\DEV\SLICERFIRSTEXTENSION\VIRTUALDISSECTION-BUILD\CMAKEFILES\DC7AB4FBA758ABA9A732E4F81550134A\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/dev/SlicerFirstExtension/VirtualDissection -BC:/dev/SlicerFirstExtension/VirtualDissection-build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/dev/SlicerFirstExtension/VirtualDissection-build/VirtualDissection.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

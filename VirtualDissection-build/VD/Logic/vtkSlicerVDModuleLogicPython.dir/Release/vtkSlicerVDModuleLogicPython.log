@@ -1,0 +1,4 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppClean.targets(77,5): warning : Access to the path 'c:\dev\slicerfirstextension\virtualdissection-build\lib\slicer-4.13\qt-loadable-modules\release\vtkslicervdmodulelogicpython.pyd' is denied.
+  Building Custom Rule C:/dev/SlicerFirstExtension/VirtualDissection/VD/Logic/CMakeLists.txt
+  vtkSlicerVDModuleLogicPythonInit.cxx
+LINK : fatal error LNK1104: cannot open file 'C:\dev\SlicerFirstExtension\VirtualDissection-build\lib\Slicer-4.13\qt-loadable-modules\Release\vtkSlicerVDModuleLogicPython.pyd'

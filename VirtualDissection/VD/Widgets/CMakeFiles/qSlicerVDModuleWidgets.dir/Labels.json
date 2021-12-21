@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/dev/SlicerFirstExtension/VirtualDissection/VD/Widgets/qSlicerVDFooBarWidget.cxx"
+		},
+		{
+			"file" : "C:/dev/SlicerFirstExtension/VirtualDissection/VD/Widgets/qSlicerVDFooBarWidget.h"
+		},
+		{
+			"file" : "C:/dev/SlicerFirstExtension/VirtualDissection/VD/Widgets/moc_qSlicerVDFooBarWidget.cpp"
+		},
+		{
+			"file" : "C:/dev/SlicerFirstExtension/VirtualDissection/VD/Widgets/ui_qSlicerVDFooBarWidget.h"
+		},
+		{
+			"file" : "C:/dev/SlicerFirstExtension/VirtualDissection/VD/Widgets/qrc_qSlicerVDModule.cpp"
+		},
+		{
+			"file" : "C:/dev/SlicerFirstExtension/VirtualDissection/VD/Widgets/qrc_qSlicer.cpp"
+		},
+		{
+			"file" : "C:/dev/SlicerFirstExtension/VirtualDissection/CMakeFiles/7b5f878bad3a5c8a48f72dcc32f07fa9/moc_qSlicerVDFooBarWidget.cpp.rule"
+		},
+		{
+			"file" : "C:/dev/SlicerFirstExtension/VirtualDissection/VD/Resources/UI/qSlicerVDFooBarWidget.ui"
+		},
+		{
+			"file" : "C:/dev/SlicerFirstExtension/VirtualDissection/VD/Resources/qSlicerVDModule.qrc"
+		},
+		{
+			"file" : "C:/D/S4/Resources/qSlicer.qrc"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"qSlicerVDModuleWidgets"
+		],
+		"name" : "qSlicerVDModuleWidgets"
+	}
+}

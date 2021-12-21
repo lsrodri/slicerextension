@@ -1,0 +1,128 @@
+[DEBUG][Qt] 16.09.2021 17:44:32 [] (unknown:0) - Session start time .......: 2021-09-16 17:44:32
+[DEBUG][Qt] 16.09.2021 17:44:32 [] (unknown:0) - Slicer version ...........: 4.11.20200930 (revision 29402 / 002be18) win-amd64 - installed release
+[DEBUG][Qt] 16.09.2021 17:44:32 [] (unknown:0) - Operating system .........: Windows /  Professional / (Build 19042, Code Page 65001) - 64-bit
+[DEBUG][Qt] 16.09.2021 17:44:32 [] (unknown:0) - Memory ...................: 32702 MB physical, 37566 MB virtual
+[DEBUG][Qt] 16.09.2021 17:44:32 [] (unknown:0) - CPU ......................: GenuineIntel , 16 cores, 16 logical processors
+[DEBUG][Qt] 16.09.2021 17:44:32 [] (unknown:0) - VTK configuration ........: OpenGL2 rendering, TBB threading
+[DEBUG][Qt] 16.09.2021 17:44:32 [] (unknown:0) - Qt configuration .........: version 5.15.1, with SSL, requested OpenGL 3.2 (compatibility profile)
+[DEBUG][Qt] 16.09.2021 17:44:32 [] (unknown:0) - Developer mode enabled ...: no
+[DEBUG][Qt] 16.09.2021 17:44:32 [] (unknown:0) - Prefer executable CLI ....: yes
+[DEBUG][Qt] 16.09.2021 17:44:32 [] (unknown:0) - Application path .........: C:/ProgramData/NA-MIC/Slicer 4.11.20200930/bin
+[DEBUG][Qt] 16.09.2021 17:44:32 [] (unknown:0) - Additional module paths ..: (none)
+[DEBUG][Python] 16.09.2021 17:44:33 [Python] (C:\ProgramData\NA-MIC\Slicer 4.11.20200930\lib\Python\Lib\site-packages\pydicom\datadict.py:432) - Reversing DICOM dictionary so can look up tag from a keyword...
+[DEBUG][Python] 16.09.2021 17:44:33 [Python] (C:\ProgramData\NA-MIC\Slicer 4.11.20200930\lib\Slicer-4.11\qt-scripted-modules\SubjectHierarchyPlugins\AbstractScriptedSubjectHierarchyPlugin.py:36) - Scripted subject hierarchy plugin registered: Annotations
+[DEBUG][Python] 16.09.2021 17:44:34 [Python] (C:\ProgramData\NA-MIC\Slicer 4.11.20200930\lib\Slicer-4.11\qt-scripted-modules\SubjectHierarchyPlugins\AbstractScriptedSubjectHierarchyPlugin.py:36) - Scripted subject hierarchy plugin registered: SegmentEditor
+[DEBUG][Python] 16.09.2021 17:44:34 [Python] (C:\ProgramData\NA-MIC\Slicer 4.11.20200930\lib\Slicer-4.11\qt-scripted-modules\SubjectHierarchyPlugins\AbstractScriptedSubjectHierarchyPlugin.py:36) - Scripted subject hierarchy plugin registered: SegmentStatistics
+[DEBUG][Qt] 16.09.2021 17:44:34 [] (unknown:0) - Switch to module:  "Welcome"
+[INFO][VTK] 16.09.2021 17:44:34 [vtkMRMLScene (000001C284BE7380)] (D:\D\S\Slicer-0\Libs\MRML\Core\vtkMRMLScene.cxx:762) - vtkMRMLScene::Import
+[INFO][VTK] 16.09.2021 17:44:35 [vtkMRMLVolumeArchetypeStorageNode (000001C2B4C4D920)] (D:\D\S\Slicer-0\Libs\MRML\Core\vtkMRMLVolumeArchetypeStorageNode.cxx:473) - Loaded volume from file: C:/Users/admin/Seafile/Library/Code/Sample Volume/sliceslg/sagittal/sag0000.jpg. Dimensions: 3010x1568x56. Number of components: 1. Pixel type: unsigned char.
+[INFO][VTK] 16.09.2021 17:44:44 [vtkMRMLVolumeArchetypeStorageNode (000001C2B4C4BA20)] (D:\D\S\Slicer-0\Libs\MRML\Core\vtkMRMLVolumeArchetypeStorageNode.cxx:473) - Loaded volume from file: C:/Users/admin/Seafile/Library/Code/Sample Volume/sliceslg/transvrs/tr0000.jpg. Dimensions: 3010x2048x784. Number of components: 1. Pixel type: unsigned char.
+[DEBUG][Qt] 16.09.2021 17:45:02 [] (unknown:0) - "MRML Scene" Reader has successfully read the file "C:/Users/admin/Documents/2021-09-16-Scene.mrml" "[28.15s]"
+[DEBUG][Qt] 16.09.2021 17:45:30 [] (unknown:0) - Switch to module:  "SegmentEditor"
+[DEBUG][Qt] 16.09.2021 17:48:45 [] (unknown:0) - Switch to module:  "Volumes"
+[WARNING][Qt] 16.09.2021 17:48:45 [] (unknown:0) - Assertion `this->Table->columnWidth(j) == newWidth` failed in  D:\D\S\Slicer-0-build\CTK\Libs\Widgets\ctkMatrixWidget.cpp  line  242
+[WARNING][Qt] 16.09.2021 17:48:45 [] (unknown:0) - Assertion `this->Table->columnWidth(j) == newWidth` failed in  D:\D\S\Slicer-0-build\CTK\Libs\Widgets\ctkMatrixWidget.cpp  line  242
+[WARNING][Qt] 16.09.2021 17:48:45 [] (unknown:0) - Assertion `this->Table->columnWidth(j) == newWidth` failed in  D:\D\S\Slicer-0-build\CTK\Libs\Widgets\ctkMatrixWidget.cpp  line  242
+[WARNING][Qt] 16.09.2021 17:48:45 [] (unknown:0) - Assertion `this->Table->columnWidth(j) == newWidth` failed in  D:\D\S\Slicer-0-build\CTK\Libs\Widgets\ctkMatrixWidget.cpp  line  242
+[WARNING][Qt] 16.09.2021 17:48:45 [] (unknown:0) - Assertion `this->Table->rowHeight(i) == newHeight` failed in  D:\D\S\Slicer-0-build\CTK\Libs\Widgets\ctkMatrixWidget.cpp  line  253
+[WARNING][Qt] 16.09.2021 17:48:45 [] (unknown:0) - Assertion `this->Table->rowHeight(i) == newHeight` failed in  D:\D\S\Slicer-0-build\CTK\Libs\Widgets\ctkMatrixWidget.cpp  line  253
+[WARNING][Qt] 16.09.2021 17:48:45 [] (unknown:0) - Assertion `this->Table->rowHeight(i) == newHeight` failed in  D:\D\S\Slicer-0-build\CTK\Libs\Widgets\ctkMatrixWidget.cpp  line  253
+[WARNING][Qt] 16.09.2021 17:48:45 [] (unknown:0) - Assertion `this->Table->rowHeight(i) == newHeight` failed in  D:\D\S\Slicer-0-build\CTK\Libs\Widgets\ctkMatrixWidget.cpp  line  253
+[WARNING][Qt] 16.09.2021 17:48:45 [] (unknown:0) - Assertion `this->Table->rowHeight(i) == newHeight` failed in  D:\D\S\Slicer-0-build\CTK\Libs\Widgets\ctkMatrixWidget.cpp  line  253
+[WARNING][Qt] 16.09.2021 17:48:45 [] (unknown:0) - Assertion `this->Table->rowHeight(i) == newHeight` failed in  D:\D\S\Slicer-0-build\CTK\Libs\Widgets\ctkMatrixWidget.cpp  line  253
+[WARNING][Qt] 16.09.2021 17:48:45 [] (unknown:0) - Assertion `this->Table->rowHeight(i) == newHeight` failed in  D:\D\S\Slicer-0-build\CTK\Libs\Widgets\ctkMatrixWidget.cpp  line  253
+[WARNING][Qt] 16.09.2021 17:48:45 [] (unknown:0) - Assertion `this->Table->rowHeight(i) == newHeight` failed in  D:\D\S\Slicer-0-build\CTK\Libs\Widgets\ctkMatrixWidget.cpp  line  253
+[WARNING][Qt] 16.09.2021 17:48:45 [] (unknown:0) - Assertion `this->Table->rowHeight(i) == newHeight` failed in  D:\D\S\Slicer-0-build\CTK\Libs\Widgets\ctkMatrixWidget.cpp  line  253
+[WARNING][Qt] 16.09.2021 17:48:45 [] (unknown:0) - Assertion `this->Table->rowHeight(i) == newHeight` failed in  D:\D\S\Slicer-0-build\CTK\Libs\Widgets\ctkMatrixWidget.cpp  line  253
+[WARNING][Qt] 16.09.2021 17:48:45 [] (unknown:0) - Assertion `this->Table->rowHeight(i) == newHeight` failed in  D:\D\S\Slicer-0-build\CTK\Libs\Widgets\ctkMatrixWidget.cpp  line  253
+[DEBUG][Qt] 16.09.2021 17:49:08 [] (unknown:0) - Switch to module:  "SegmentEditor"
+[DEBUG][Qt] 16.09.2021 17:49:27 [] (unknown:0) - Switch to module:  "Models"
+[DEBUG][Qt] 16.09.2021 17:49:33 [] (unknown:0) - Switch to module:  "Data"
+[DEBUG][Qt] 16.09.2021 17:49:48 [] (unknown:0) - Switch to module:  "Volumes"
+[DEBUG][Qt] 16.09.2021 17:49:51 [] (unknown:0) - Switch to module:  "Data"
+[DEBUG][Qt] 16.09.2021 17:50:13 [] (unknown:0) - Switch to module:  "SegmentEditor"
+[DEBUG][Qt] 16.09.2021 17:50:21 [] (unknown:0) - Switch to module:  "Segmentations"
+[DEBUG][Qt] 16.09.2021 17:50:39 [] (unknown:0) - Switch to module:  "SceneViews"
+[DEBUG][Qt] 16.09.2021 17:50:44 [] (unknown:0) - Switch to module:  "Annotations"
+[DEBUG][Qt] 16.09.2021 17:50:47 [] (unknown:0) - Switch to module:  "Data"
+[DEBUG][Qt] 16.09.2021 17:51:03 [] (unknown:0) - Switch to module:  "SegmentEditor"
+[INFO][VTK] 16.09.2021 18:01:36 [vtkMRMLVolumeArchetypeStorageNode (000001C6AB206D70)] (D:\D\S\Slicer-0\Libs\MRML\Core\vtkMRMLVolumeArchetypeStorageNode.cxx:473) - Loaded volume from file: C:/Users/admin/AppData/Local/Temp/Slicer/RemoteIO/MR-head.nrrd. Dimensions: 256x256x130. Number of components: 1. Pixel type: short.
+[INFO][VTK] 16.09.2021 18:01:36 [vtkMRMLScene (000001C3E6D68B60)] (D:\D\S\Slicer-0\Libs\MRML\Core\vtkMRMLScene.cxx:316) - vtkMRMLScene::Clear
+[DEBUG][Qt] 16.09.2021 18:01:36 [] (unknown:0) - "Volume" Reader has successfully read the file "C:/Users/admin/AppData/Local/Temp/Slicer/RemoteIO/MR-head.nrrd" "[0.41s]"
+[DEBUG][Qt] 16.09.2021 18:01:44 [] (unknown:0) - Switch to module:  "Data"
+[INFO][VTK] 16.09.2021 18:01:53 [vtkMRMLScene (000001C284BE7380)] (D:\D\S\Slicer-0\Libs\MRML\Core\vtkMRMLScene.cxx:316) - vtkMRMLScene::Clear
+[WARNING][Qt] 16.09.2021 18:01:53 [] (unknown:0) - no dataArray
+[INFO][VTK] 16.09.2021 18:01:59 [vtkMRMLVolumeArchetypeStorageNode (000001C6AB206990)] (D:\D\S\Slicer-0\Libs\MRML\Core\vtkMRMLVolumeArchetypeStorageNode.cxx:473) - Loaded volume from file: C:/Users/admin/AppData/Local/Temp/Slicer/RemoteIO/MR-head.nrrd. Dimensions: 256x256x130. Number of components: 1. Pixel type: short.
+[INFO][VTK] 16.09.2021 18:01:59 [vtkMRMLScene (000001C281742A00)] (D:\D\S\Slicer-0\Libs\MRML\Core\vtkMRMLScene.cxx:316) - vtkMRMLScene::Clear
+[DEBUG][Qt] 16.09.2021 18:01:59 [] (unknown:0) - "Volume" Reader has successfully read the file "C:/Users/admin/AppData/Local/Temp/Slicer/RemoteIO/MR-head.nrrd" "[0.09s]"
+[DEBUG][Qt] 16.09.2021 18:02:03 [] (unknown:0) - Switch to module:  "VolumeRendering"
+[INFO][VTK] 16.09.2021 18:02:03 [vtkMRMLScene (000001C3E6D68B60)] (D:\D\S\Slicer-0\Libs\MRML\Core\vtkMRMLScene.cxx:316) - vtkMRMLScene::Clear
+[INFO][VTK] 16.09.2021 18:02:03 [vtkMRMLScene (000001C3E6D68B60)] (D:\D\S\Slicer-0\Libs\MRML\Core\vtkMRMLScene.cxx:762) - vtkMRMLScene::Import
+[DEBUG][Qt] 16.09.2021 18:02:14 [] (unknown:0) - Switch to module:  "Volumes"
+[DEBUG][Qt] 16.09.2021 18:04:23 [] (unknown:0) - Switch to module:  "SegmentEditor"
+[DEBUG][Qt] 16.09.2021 18:04:27 [] (unknown:0) - Switch to module:  "Data"
+[DEBUG][Qt] 16.09.2021 18:04:48 [] (unknown:0) - Switch to module:  "SegmentEditor"
+[INFO][Stream] 16.09.2021 18:07:59 [] (unknown:0) - self.extentGrowthRatio = 0.1
+[INFO][Stream] 16.09.2021 18:07:59 [] (unknown:0) - masterImageExtent = (0, 255, 0, 255, 0, 129)
+[INFO][Stream] 16.09.2021 18:07:59 [] (unknown:0) - labelsEffectiveExtent = (127, 189, 11, 100, 0, 129)
+[INFO][Stream] 16.09.2021 18:07:59 [] (unknown:0) - labelsExpandedExtent = [121, 195, 3, 108, 0, 129]
+[DEBUG][Qt] 16.09.2021 18:14:20 [] (unknown:0) - Switch to module:  "VolumeRendering"
+[DEBUG][Qt] 16.09.2021 18:14:54 [] (unknown:0) - Switch to module:  "Volumes"
+[DEBUG][Qt] 16.09.2021 18:15:01 [] (unknown:0) - Switch to module:  "Models"
+[DEBUG][Qt] 16.09.2021 18:15:23 [] (unknown:0) - Switch to module:  "SegmentEditor"
+[WARNING][VTK] 16.09.2021 18:17:38 [vtkPolyData (000001C2B5183260)] (D:\D\S\Slicer-0-build\VTK\Common\DataModel\vtkPolyData.cxx:1010) - Building VTK_TRIANGLE 0 with less than three points, but VTK_TRIANGLE needs at least three points. Check the input.
+[WARNING][VTK] 16.09.2021 18:17:38 [vtkPolyData (000001C2B5183260)] (D:\D\S\Slicer-0-build\VTK\Common\DataModel\vtkPolyData.cxx:1023) - Building VTK_TRIANGLE 1 with less than three points, but VTK_TRIANGLE needs at least three points. Check the input.
+[WARNING][VTK] 16.09.2021 18:17:38 [vtkPolyData (000001C2B5181BE0)] (D:\D\S\Slicer-0-build\VTK\Common\DataModel\vtkPolyData.cxx:1010) - Building VTK_TRIANGLE 0 with less than three points, but VTK_TRIANGLE needs at least three points. Check the input.
+[WARNING][VTK] 16.09.2021 18:17:38 [vtkPolyData (000001C2B5181BE0)] (D:\D\S\Slicer-0-build\VTK\Common\DataModel\vtkPolyData.cxx:1023) - Building VTK_TRIANGLE 1 with less than three points, but VTK_TRIANGLE needs at least three points. Check the input.
+[DEBUG][Qt] 16.09.2021 18:20:18 [] (unknown:0) - Switch to module:  "Volumes"
+[DEBUG][Qt] 16.09.2021 18:20:39 [] (unknown:0) - Switch to module:  "Models"
+[DEBUG][Qt] 16.09.2021 18:20:47 [] (unknown:0) - Switch to module:  "Volumes"
+[INFO][VTK] 16.09.2021 18:21:52 [vtkMRMLScene (000001C284BE7380)] (D:\D\S\Slicer-0\Libs\MRML\Core\vtkMRMLScene.cxx:316) - vtkMRMLScene::Clear
+[WARNING][Qt] 16.09.2021 18:21:52 [] (unknown:0) - no dataArray
+[INFO][VTK] 16.09.2021 18:21:59 [vtkMRMLScene (000001C284BE7380)] (D:\D\S\Slicer-0\Libs\MRML\Core\vtkMRMLScene.cxx:762) - vtkMRMLScene::Import
+[DEBUG][Qt] 16.09.2021 18:21:59 [] (unknown:0) - bool __cdecl qMRMLSegmentEditorWidget::setMasterRepresentationToBinaryLabelmap(void)  failed: segmentation node is invalid.
+[DEBUG][Qt] 16.09.2021 18:21:59 [] (unknown:0) - void __cdecl qMRMLSegmentEditorWidget::updateEffectsSectionFromMRML(void) : Cannot activate effect, failed to set binary labelmap as master representation.
+[INFO][VTK] 16.09.2021 18:21:59 [vtkMRMLVolumeArchetypeStorageNode (000001C2B11D7460)] (D:\D\S\Slicer-0\Libs\MRML\Core\vtkMRMLVolumeArchetypeStorageNode.cxx:473) - Loaded volume from file: C:/Users/admin/Seafile/Library/Code/Sample Volume/sliceslg/sagittal/sag0000.jpg. Dimensions: 3010x1568x56. Number of components: 1. Pixel type: unsigned char.
+[INFO][VTK] 16.09.2021 18:22:09 [vtkMRMLVolumeArchetypeStorageNode (000001C2B11D7650)] (D:\D\S\Slicer-0\Libs\MRML\Core\vtkMRMLVolumeArchetypeStorageNode.cxx:473) - Loaded volume from file: C:/Users/admin/Seafile/Library/Code/Sample Volume/sliceslg/transvrs/tr0000.jpg. Dimensions: 3010x2048x784. Number of components: 1. Pixel type: unsigned char.
+[WARNING][VTK] 16.09.2021 18:22:28 [vtkSubjectHierarchyItem (000001C68F6A5BB0)] (D:\D\S\Slicer-0\Libs\MRML\Core\vtkMRMLSubjectHierarchyNode.cxx:714) - FindChildByID: Item cache does not contain requested ID 30
+[WARNING][VTK] 16.09.2021 18:22:28 [vtkSubjectHierarchyItem (000001C3E84B4A80)] (D:\D\S\Slicer-0\Libs\MRML\Core\vtkMRMLSubjectHierarchyNode.cxx:714) - FindChildByID: Item cache does not contain requested ID 30
+[WARNING][VTK] 16.09.2021 18:22:28 [vtkSubjectHierarchyItem (000001C3E84B4C80)] (D:\D\S\Slicer-0\Libs\MRML\Core\vtkMRMLSubjectHierarchyNode.cxx:714) - FindChildByID: Item cache does not contain requested ID 30
+[WARNING][VTK] 16.09.2021 18:22:28 [vtkSubjectHierarchyItem (000001C3E84B6880)] (D:\D\S\Slicer-0\Libs\MRML\Core\vtkMRMLSubjectHierarchyNode.cxx:714) - FindChildByID: Item cache does not contain requested ID 30
+[WARNING][VTK] 16.09.2021 18:22:28 [vtkSubjectHierarchyItem (000001C3E84B7D80)] (D:\D\S\Slicer-0\Libs\MRML\Core\vtkMRMLSubjectHierarchyNode.cxx:714) - FindChildByID: Item cache does not contain requested ID 30
+[WARNING][VTK] 16.09.2021 18:22:28 [vtkSubjectHierarchyItem (000001C3E84B4680)] (D:\D\S\Slicer-0\Libs\MRML\Core\vtkMRMLSubjectHierarchyNode.cxx:714) - FindChildByID: Item cache does not contain requested ID 30
+[WARNING][VTK] 16.09.2021 18:22:28 [vtkSubjectHierarchyItem (000001C3E84B7680)] (D:\D\S\Slicer-0\Libs\MRML\Core\vtkMRMLSubjectHierarchyNode.cxx:714) - FindChildByID: Item cache does not contain requested ID 30
+[WARNING][VTK] 16.09.2021 18:22:28 [vtkSubjectHierarchyItem (000001C3E84B4580)] (D:\D\S\Slicer-0\Libs\MRML\Core\vtkMRMLSubjectHierarchyNode.cxx:714) - FindChildByID: Item cache does not contain requested ID 30
+[WARNING][VTK] 16.09.2021 18:22:28 [vtkSubjectHierarchyItem (000001C3E84B4B80)] (D:\D\S\Slicer-0\Libs\MRML\Core\vtkMRMLSubjectHierarchyNode.cxx:714) - FindChildByID: Item cache does not contain requested ID 30
+[ERROR][VTK] 16.09.2021 18:22:28 [vtkMRMLSubjectHierarchyNode (000001C3E757D6D0)] (D:\D\S\Slicer-0\Libs\MRML\Core\vtkMRMLSubjectHierarchyNode.cxx:2056) - GetItemDataNode: Failed to find subject hierarchy item by ID 30
+[WARNING][VTK] 16.09.2021 18:22:28 [vtkSubjectHierarchyItem (000001C68F6A5BB0)] (D:\D\S\Slicer-0\Libs\MRML\Core\vtkMRMLSubjectHierarchyNode.cxx:714) - FindChildByID: Item cache does not contain requested ID 30
+[WARNING][VTK] 16.09.2021 18:22:28 [vtkSubjectHierarchyItem (000001C3E84B4A80)] (D:\D\S\Slicer-0\Libs\MRML\Core\vtkMRMLSubjectHierarchyNode.cxx:714) - FindChildByID: Item cache does not contain requested ID 30
+[WARNING][VTK] 16.09.2021 18:22:28 [vtkSubjectHierarchyItem (000001C3E84B4C80)] (D:\D\S\Slicer-0\Libs\MRML\Core\vtkMRMLSubjectHierarchyNode.cxx:714) - FindChildByID: Item cache does not contain requested ID 30
+[WARNING][VTK] 16.09.2021 18:22:28 [vtkSubjectHierarchyItem (000001C3E84B6880)] (D:\D\S\Slicer-0\Libs\MRML\Core\vtkMRMLSubjectHierarchyNode.cxx:714) - FindChildByID: Item cache does not contain requested ID 30
+[WARNING][VTK] 16.09.2021 18:22:28 [vtkSubjectHierarchyItem (000001C3E84B7D80)] (D:\D\S\Slicer-0\Libs\MRML\Core\vtkMRMLSubjectHierarchyNode.cxx:714) - FindChildByID: Item cache does not contain requested ID 30
+[WARNING][VTK] 16.09.2021 18:22:28 [vtkSubjectHierarchyItem (000001C3E84B4680)] (D:\D\S\Slicer-0\Libs\MRML\Core\vtkMRMLSubjectHierarchyNode.cxx:714) - FindChildByID: Item cache does not contain requested ID 30
+[WARNING][VTK] 16.09.2021 18:22:28 [vtkSubjectHierarchyItem (000001C3E84B7680)] (D:\D\S\Slicer-0\Libs\MRML\Core\vtkMRMLSubjectHierarchyNode.cxx:714) - FindChildByID: Item cache does not contain requested ID 30
+[WARNING][VTK] 16.09.2021 18:22:28 [vtkSubjectHierarchyItem (000001C3E84B4580)] (D:\D\S\Slicer-0\Libs\MRML\Core\vtkMRMLSubjectHierarchyNode.cxx:714) - FindChildByID: Item cache does not contain requested ID 30
+[WARNING][VTK] 16.09.2021 18:22:28 [vtkSubjectHierarchyItem (000001C3E84B4B80)] (D:\D\S\Slicer-0\Libs\MRML\Core\vtkMRMLSubjectHierarchyNode.cxx:714) - FindChildByID: Item cache does not contain requested ID 30
+[ERROR][VTK] 16.09.2021 18:22:28 [vtkMRMLSubjectHierarchyNode (000001C3E757D6D0)] (D:\D\S\Slicer-0\Libs\MRML\Core\vtkMRMLSubjectHierarchyNode.cxx:2056) - GetItemDataNode: Failed to find subject hierarchy item by ID 30
+[DEBUG][Qt] 16.09.2021 18:22:28 [] (unknown:0) - "MRML Scene" Reader has successfully read the file "C:/Users/admin/Documents/2021-09-16-Scene.mrml" "[29.63s]"
+[INFO][VTK] 16.09.2021 18:24:00 [vtkMRMLScene (000001C284BE7380)] (D:\D\S\Slicer-0\Libs\MRML\Core\vtkMRMLScene.cxx:316) - vtkMRMLScene::Clear
+[WARNING][Qt] 16.09.2021 18:24:00 [] (unknown:0) - no dataArray
+[WARNING][VTK] 16.09.2021 18:24:00 [vtkSubjectHierarchyItem (000001C6D57841E0)] (D:\D\S\Slicer-0\Libs\MRML\Core\vtkMRMLSubjectHierarchyNode.cxx:714) - FindChildByID: Item cache does not contain requested ID 30
+[ERROR][VTK] 16.09.2021 18:24:00 [vtkMRMLSubjectHierarchyNode (000001C6AB97DAB0)] (D:\D\S\Slicer-0\Libs\MRML\Core\vtkMRMLSubjectHierarchyNode.cxx:2056) - GetItemDataNode: Failed to find subject hierarchy item by ID 30
+[WARNING][VTK] 16.09.2021 18:24:00 [vtkSubjectHierarchyItem (000001C6D57841E0)] (D:\D\S\Slicer-0\Libs\MRML\Core\vtkMRMLSubjectHierarchyNode.cxx:714) - FindChildByID: Item cache does not contain requested ID 30
+[ERROR][VTK] 16.09.2021 18:24:00 [vtkMRMLSubjectHierarchyNode (000001C6AB97DAB0)] (D:\D\S\Slicer-0\Libs\MRML\Core\vtkMRMLSubjectHierarchyNode.cxx:2056) - GetItemDataNode: Failed to find subject hierarchy item by ID 30
+[INFO][VTK] 16.09.2021 18:24:12 [vtkMRMLVolumeArchetypeStorageNode (000001C6AB205C00)] (D:\D\S\Slicer-0\Libs\MRML\Core\vtkMRMLVolumeArchetypeStorageNode.cxx:473) - Loaded volume from file: C:/Users/admin/AppData/Local/Temp/Slicer/RemoteIO/MR-head.nrrd. Dimensions: 256x256x130. Number of components: 1. Pixel type: short.
+[INFO][VTK] 16.09.2021 18:24:12 [vtkMRMLScene (000001C48E246A10)] (D:\D\S\Slicer-0\Libs\MRML\Core\vtkMRMLScene.cxx:316) - vtkMRMLScene::Clear
+[DEBUG][Qt] 16.09.2021 18:24:12 [] (unknown:0) - "Volume" Reader has successfully read the file "C:/Users/admin/AppData/Local/Temp/Slicer/RemoteIO/MR-head.nrrd" "[0.41s]"
+[DEBUG][Qt] 16.09.2021 18:24:32 [] (unknown:0) - Switch to module:  "VolumeRendering"
+[DEBUG][Qt] 16.09.2021 18:24:42 [] (unknown:0) - Switch to module:  "Data"
+[DEBUG][Qt] 16.09.2021 18:25:00 [] (unknown:0) - Switch to module:  "VolumeRendering"
+[DEBUG][Qt] 16.09.2021 18:25:25 [] (unknown:0) - Switch to module:  "SegmentEditor"
+[DEBUG][Qt] 16.09.2021 18:26:39 [] (unknown:0) - Switch to module:  "Data"
+[DEBUG][Qt] 16.09.2021 18:26:51 [] (unknown:0) - Switch to module:  "VolumeRendering"
+[DEBUG][Qt] 16.09.2021 18:27:59 [] (unknown:0) - Switch to module:  "Data"
+[DEBUG][Qt] 16.09.2021 18:28:20 [] (unknown:0) - Switch to module:  "SegmentEditor"
+[DEBUG][Qt] 16.09.2021 18:30:15 [] (unknown:0) - Switch to module:  "Segmentations"
+[DEBUG][Qt] 16.09.2021 18:30:35 [] (unknown:0) - Switch to module:  "Models"
+[DEBUG][Qt] 16.09.2021 18:30:38 [] (unknown:0) - Switch to module:  "Volumes"
+[DEBUG][Qt] 16.09.2021 18:30:51 [] (unknown:0) - Switch to module:  ""

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\dev\SlicerFirstExtension\VirtualDissection-build\VD\qSlicerVDModuleCxxTests.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\SlicerFirstExtension\VirtualDissection\VD\qSlicerVDModuleGenericTest.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\SlicerFirstExtension\VirtualDissection\VD\qSlicerVDModuleWidgetGenericTest.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\dev\SlicerFirstExtension\VirtualDissection\VD\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{8F1B831E-F9CA-3AE2-8E3D-A34FC647ED8E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

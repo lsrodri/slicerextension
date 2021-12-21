@@ -1,0 +1,103 @@
+[DEBUG][Qt] 09.12.2021 10:42:03 [] (unknown:0) - Session start time .......: 2021-12-09 10:42:03
+[DEBUG][Qt] 09.12.2021 10:42:03 [] (unknown:0) - Slicer version ...........: 4.11.20200930 (revision 29402 / 002be18) win-amd64 - installed release
+[DEBUG][Qt] 09.12.2021 10:42:03 [] (unknown:0) - Operating system .........: Windows /  Professional / (Build 19042, Code Page 65001) - 64-bit
+[DEBUG][Qt] 09.12.2021 10:42:03 [] (unknown:0) - Memory ...................: 32702 MB physical, 37566 MB virtual
+[DEBUG][Qt] 09.12.2021 10:42:03 [] (unknown:0) - CPU ......................: GenuineIntel , 16 cores, 16 logical processors
+[DEBUG][Qt] 09.12.2021 10:42:03 [] (unknown:0) - VTK configuration ........: OpenGL2 rendering, TBB threading
+[DEBUG][Qt] 09.12.2021 10:42:03 [] (unknown:0) - Qt configuration .........: version 5.15.1, with SSL, requested OpenGL 3.2 (compatibility profile)
+[DEBUG][Qt] 09.12.2021 10:42:03 [] (unknown:0) - Developer mode enabled ...: no
+[DEBUG][Qt] 09.12.2021 10:42:03 [] (unknown:0) - Prefer executable CLI ....: yes
+[DEBUG][Qt] 09.12.2021 10:42:03 [] (unknown:0) - Application path .........: C:/ProgramData/NA-MIC/Slicer 4.11.20200930/bin
+[DEBUG][Qt] 09.12.2021 10:42:03 [] (unknown:0) - Additional module paths ..: (none)
+[DEBUG][Python] 09.12.2021 10:42:06 [Python] (C:\ProgramData\NA-MIC\Slicer 4.11.20200930\lib\Python\Lib\site-packages\pydicom\datadict.py:432) - Reversing DICOM dictionary so can look up tag from a keyword...
+[DEBUG][Python] 09.12.2021 10:42:09 [Python] (C:\ProgramData\NA-MIC\Slicer 4.11.20200930\lib\Slicer-4.11\qt-scripted-modules\SubjectHierarchyPlugins\AbstractScriptedSubjectHierarchyPlugin.py:36) - Scripted subject hierarchy plugin registered: Annotations
+[DEBUG][Python] 09.12.2021 10:42:09 [Python] (C:\ProgramData\NA-MIC\Slicer 4.11.20200930\lib\Slicer-4.11\qt-scripted-modules\SubjectHierarchyPlugins\AbstractScriptedSubjectHierarchyPlugin.py:36) - Scripted subject hierarchy plugin registered: SegmentEditor
+[DEBUG][Python] 09.12.2021 10:42:09 [Python] (C:\ProgramData\NA-MIC\Slicer 4.11.20200930\lib\Slicer-4.11\qt-scripted-modules\SubjectHierarchyPlugins\AbstractScriptedSubjectHierarchyPlugin.py:36) - Scripted subject hierarchy plugin registered: SegmentStatistics
+[DEBUG][Qt] 09.12.2021 10:42:09 [] (unknown:0) - Switch to module:  "Welcome"
+[ERROR][VTK] 09.12.2021 10:42:28 [vtkITKArchetypeDiffusionTensorImageReaderFile (0000028634B54640)] (D:\D\S\Slicer-0\Libs\vtkITK\vtkITKArchetypeDiffusionTensorImageReaderFile.cxx:166) - There is more than one file, use the vtkITKArchetypeImageSeriesReader instead
+[INFO][VTK] 09.12.2021 10:42:28 [vtkMRMLVolumeArchetypeStorageNode (0000028639E63760)] (D:\D\S\Slicer-0\Libs\MRML\Core\vtkMRMLVolumeArchetypeStorageNode.cxx:473) - Loaded volume from file: C:/Users/admin/Downloads/1_2_resliced/Reslice of cropped-10000.tif. Dimensions: 487x1026x372. Number of components: 1. Pixel type: unsigned char.
+[INFO][VTK] 09.12.2021 10:42:28 [vtkMRMLScene (0000028608A56AE0)] (D:\D\S\Slicer-0\Libs\MRML\Core\vtkMRMLScene.cxx:316) - vtkMRMLScene::Clear
+[DEBUG][Qt] 09.12.2021 10:42:28 [] (unknown:0) - "Volume" Reader has successfully read the file "C:/Users/admin/Downloads/1_2_resliced/Reslice of cropped-10000.tif" "[1.17s]"
+[DEBUG][Qt] 09.12.2021 10:42:34 [] (unknown:0) - Switch to module:  "Data"
+[INFO][VTK] 09.12.2021 10:42:38 [vtkMRMLScene (00000286448CDD00)] (D:\D\S\Slicer-0\Libs\MRML\Core\vtkMRMLScene.cxx:316) - vtkMRMLScene::Clear
+[INFO][VTK] 09.12.2021 10:42:38 [vtkMRMLScene (00000286448CDD00)] (D:\D\S\Slicer-0\Libs\MRML\Core\vtkMRMLScene.cxx:762) - vtkMRMLScene::Import
+[DEBUG][Qt] 09.12.2021 10:43:11 [] (unknown:0) - Switch to module:  "SegmentEditor"
+[DEBUG][Qt] 09.12.2021 10:43:22 [] (unknown:0) - Switch to module:  "VolumeRendering"
+[CRITICAL][Qt] 09.12.2021 10:43:57 [] (unknown:0) - The VTKEvent( 17000 ) triggered by vtkObject( vtkMRMLScalarVolumeNode )  doesn't return data of type vtkObject. 
+The slot ( "1onDisplayNodeModified(vtkObject*, vtkObject*)" ) owned by  QObject( "" )  may be incorrect.
+[CRITICAL][Qt] 09.12.2021 10:43:57 [] (unknown:0) - void __cdecl qSlicerSubjectHierarchyPluginLogic::onDisplayNodeModified(class vtkObject *,class vtkObject *) : Invalid object type calling display node modified event
+[CRITICAL][Qt] 09.12.2021 10:44:00 [] (unknown:0) - The VTKEvent( 17000 ) triggered by vtkObject( vtkMRMLScalarVolumeNode )  doesn't return data of type vtkObject. 
+The slot ( "1onDisplayNodeModified(vtkObject*, vtkObject*)" ) owned by  QObject( "" )  may be incorrect.
+[CRITICAL][Qt] 09.12.2021 10:44:00 [] (unknown:0) - void __cdecl qSlicerSubjectHierarchyPluginLogic::onDisplayNodeModified(class vtkObject *,class vtkObject *) : Invalid object type calling display node modified event
+[DEBUG][Qt] 09.12.2021 11:03:34 [] (unknown:0) - Switch to module:  "SegmentEditor"
+[CRITICAL][Qt] 09.12.2021 11:04:36 [] (unknown:0) - The VTKEvent( 17000 ) triggered by vtkObject( vtkMRMLSegmentationNode )  doesn't return data of type vtkObject. 
+The slot ( "1onDisplayNodeModified(vtkObject*, vtkObject*)" ) owned by  QObject( "" )  may be incorrect.
+[CRITICAL][Qt] 09.12.2021 11:04:36 [] (unknown:0) - void __cdecl qSlicerSubjectHierarchyPluginLogic::onDisplayNodeModified(class vtkObject *,class vtkObject *) : Invalid object type calling display node modified event
+[CRITICAL][Qt] 09.12.2021 11:04:37 [] (unknown:0) - The VTKEvent( 17000 ) triggered by vtkObject( vtkMRMLSegmentationNode )  doesn't return data of type vtkObject. 
+The slot ( "1onDisplayNodeModified(vtkObject*, vtkObject*)" ) owned by  QObject( "" )  may be incorrect.
+[CRITICAL][Qt] 09.12.2021 11:04:37 [] (unknown:0) - void __cdecl qSlicerSubjectHierarchyPluginLogic::onDisplayNodeModified(class vtkObject *,class vtkObject *) : Invalid object type calling display node modified event
+[CRITICAL][Qt] 09.12.2021 11:04:37 [] (unknown:0) - The VTKEvent( 17000 ) triggered by vtkObject( vtkMRMLSegmentationNode )  doesn't return data of type vtkObject. 
+The slot ( "1onDisplayNodeModified(vtkObject*, vtkObject*)" ) owned by  QObject( "" )  may be incorrect.
+[CRITICAL][Qt] 09.12.2021 11:04:37 [] (unknown:0) - void __cdecl qSlicerSubjectHierarchyPluginLogic::onDisplayNodeModified(class vtkObject *,class vtkObject *) : Invalid object type calling display node modified event
+[CRITICAL][Qt] 09.12.2021 11:04:37 [] (unknown:0) - The VTKEvent( 17000 ) triggered by vtkObject( vtkMRMLSegmentationNode )  doesn't return data of type vtkObject. 
+The slot ( "1onDisplayNodeModified(vtkObject*, vtkObject*)" ) owned by  QObject( "" )  may be incorrect.
+[CRITICAL][Qt] 09.12.2021 11:04:37 [] (unknown:0) - void __cdecl qSlicerSubjectHierarchyPluginLogic::onDisplayNodeModified(class vtkObject *,class vtkObject *) : Invalid object type calling display node modified event
+[INFO][Stream] 09.12.2021 11:06:58 [] (unknown:0) - self.extentGrowthRatio = 0.1
+[INFO][Stream] 09.12.2021 11:06:58 [] (unknown:0) - masterImageExtent = (0, 486, 0, 1025, 0, 371)
+[INFO][Stream] 09.12.2021 11:06:58 [] (unknown:0) - labelsEffectiveExtent = (290, 335, 467, 511, 109, 187)
+[INFO][Stream] 09.12.2021 11:06:58 [] (unknown:0) - labelsExpandedExtent = [286, 339, 463, 515, 102, 194]
+[DEBUG][Python] 09.12.2021 11:07:36 [Python] (C:\ProgramData\NA-MIC\Slicer 4.11.20200930\lib\Slicer-4.11\qt-scripted-modules\SegmentEditorEffects\AbstractScriptedSegmentEditorAutoCompleteEffect.py:176) - Segmentation update requested
+[DEBUG][Python] 09.12.2021 11:07:36 [Python] (C:\ProgramData\NA-MIC\Slicer 4.11.20200930\lib\Slicer-4.11\qt-scripted-modules\SegmentEditorEffects\AbstractScriptedSegmentEditorAutoCompleteEffect.py:176) - Segmentation update requested
+[CRITICAL][Qt] 09.12.2021 11:07:36 [] (unknown:0) - The VTKEvent( 17000 ) triggered by vtkObject( vtkMRMLSegmentationNode )  doesn't return data of type vtkObject. 
+The slot ( "1onDisplayNodeModified(vtkObject*, vtkObject*)" ) owned by  QObject( "" )  may be incorrect.
+[CRITICAL][Qt] 09.12.2021 11:07:36 [] (unknown:0) - void __cdecl qSlicerSubjectHierarchyPluginLogic::onDisplayNodeModified(class vtkObject *,class vtkObject *) : Invalid object type calling display node modified event
+[DEBUG][Python] 09.12.2021 11:07:36 [Python] (C:\ProgramData\NA-MIC\Slicer 4.11.20200930\lib\Slicer-4.11\qt-scripted-modules\SegmentEditorEffects\AbstractScriptedSegmentEditorAutoCompleteEffect.py:176) - Segmentation update requested
+[DEBUG][Python] 09.12.2021 11:07:36 [Python] (C:\ProgramData\NA-MIC\Slicer 4.11.20200930\lib\Slicer-4.11\qt-scripted-modules\SegmentEditorEffects\AbstractScriptedSegmentEditorAutoCompleteEffect.py:176) - Segmentation update requested
+[CRITICAL][Qt] 09.12.2021 11:07:36 [] (unknown:0) - The VTKEvent( 17000 ) triggered by vtkObject( vtkMRMLSegmentationNode )  doesn't return data of type vtkObject. 
+The slot ( "1onDisplayNodeModified(vtkObject*, vtkObject*)" ) owned by  QObject( "" )  may be incorrect.
+[CRITICAL][Qt] 09.12.2021 11:07:36 [] (unknown:0) - void __cdecl qSlicerSubjectHierarchyPluginLogic::onDisplayNodeModified(class vtkObject *,class vtkObject *) : Invalid object type calling display node modified event
+[DEBUG][Python] 09.12.2021 11:07:36 [Python] (C:\ProgramData\NA-MIC\Slicer 4.11.20200930\lib\Slicer-4.11\qt-scripted-modules\SegmentEditorEffects\AbstractScriptedSegmentEditorAutoCompleteEffect.py:176) - Segmentation update requested
+[DEBUG][Python] 09.12.2021 11:07:36 [Python] (C:\ProgramData\NA-MIC\Slicer 4.11.20200930\lib\Slicer-4.11\qt-scripted-modules\SegmentEditorEffects\AbstractScriptedSegmentEditorAutoCompleteEffect.py:176) - Segmentation update requested
+[CRITICAL][Qt] 09.12.2021 11:07:36 [] (unknown:0) - The VTKEvent( 17000 ) triggered by vtkObject( vtkMRMLSegmentationNode )  doesn't return data of type vtkObject. 
+The slot ( "1onDisplayNodeModified(vtkObject*, vtkObject*)" ) owned by  QObject( "" )  may be incorrect.
+[CRITICAL][Qt] 09.12.2021 11:07:36 [] (unknown:0) - void __cdecl qSlicerSubjectHierarchyPluginLogic::onDisplayNodeModified(class vtkObject *,class vtkObject *) : Invalid object type calling display node modified event
+[DEBUG][Python] 09.12.2021 11:07:37 [Python] (C:\ProgramData\NA-MIC\Slicer 4.11.20200930\lib\Slicer-4.11\qt-scripted-modules\SegmentEditorEffects\AbstractScriptedSegmentEditorAutoCompleteEffect.py:176) - Segmentation update requested
+[DEBUG][Python] 09.12.2021 11:07:37 [Python] (C:\ProgramData\NA-MIC\Slicer 4.11.20200930\lib\Slicer-4.11\qt-scripted-modules\SegmentEditorEffects\AbstractScriptedSegmentEditorAutoCompleteEffect.py:176) - Segmentation update requested
+[CRITICAL][Qt] 09.12.2021 11:07:37 [] (unknown:0) - The VTKEvent( 17000 ) triggered by vtkObject( vtkMRMLSegmentationNode )  doesn't return data of type vtkObject. 
+The slot ( "1onDisplayNodeModified(vtkObject*, vtkObject*)" ) owned by  QObject( "" )  may be incorrect.
+[CRITICAL][Qt] 09.12.2021 11:07:37 [] (unknown:0) - void __cdecl qSlicerSubjectHierarchyPluginLogic::onDisplayNodeModified(class vtkObject *,class vtkObject *) : Invalid object type calling display node modified event
+[DEBUG][Python] 09.12.2021 11:07:37 [Python] (C:\ProgramData\NA-MIC\Slicer 4.11.20200930\lib\Slicer-4.11\qt-scripted-modules\SegmentEditorEffects\AbstractScriptedSegmentEditorAutoCompleteEffect.py:176) - Segmentation update requested
+[DEBUG][Python] 09.12.2021 11:07:37 [Python] (C:\ProgramData\NA-MIC\Slicer 4.11.20200930\lib\Slicer-4.11\qt-scripted-modules\SegmentEditorEffects\AbstractScriptedSegmentEditorAutoCompleteEffect.py:176) - Segmentation update requested
+[CRITICAL][Qt] 09.12.2021 11:07:37 [] (unknown:0) - The VTKEvent( 17000 ) triggered by vtkObject( vtkMRMLSegmentationNode )  doesn't return data of type vtkObject. 
+The slot ( "1onDisplayNodeModified(vtkObject*, vtkObject*)" ) owned by  QObject( "" )  may be incorrect.
+[CRITICAL][Qt] 09.12.2021 11:07:37 [] (unknown:0) - void __cdecl qSlicerSubjectHierarchyPluginLogic::onDisplayNodeModified(class vtkObject *,class vtkObject *) : Invalid object type calling display node modified event
+[DEBUG][Python] 09.12.2021 11:07:37 [Python] (C:\ProgramData\NA-MIC\Slicer 4.11.20200930\lib\Slicer-4.11\qt-scripted-modules\SegmentEditorEffects\AbstractScriptedSegmentEditorAutoCompleteEffect.py:176) - Segmentation update requested
+[DEBUG][Python] 09.12.2021 11:07:37 [Python] (C:\ProgramData\NA-MIC\Slicer 4.11.20200930\lib\Slicer-4.11\qt-scripted-modules\SegmentEditorEffects\AbstractScriptedSegmentEditorAutoCompleteEffect.py:176) - Segmentation update requested
+[CRITICAL][Qt] 09.12.2021 11:07:37 [] (unknown:0) - The VTKEvent( 17000 ) triggered by vtkObject( vtkMRMLSegmentationNode )  doesn't return data of type vtkObject. 
+The slot ( "1onDisplayNodeModified(vtkObject*, vtkObject*)" ) owned by  QObject( "" )  may be incorrect.
+[CRITICAL][Qt] 09.12.2021 11:07:37 [] (unknown:0) - void __cdecl qSlicerSubjectHierarchyPluginLogic::onDisplayNodeModified(class vtkObject *,class vtkObject *) : Invalid object type calling display node modified event
+[DEBUG][Python] 09.12.2021 11:07:37 [Python] (C:\ProgramData\NA-MIC\Slicer 4.11.20200930\lib\Slicer-4.11\qt-scripted-modules\SegmentEditorEffects\AbstractScriptedSegmentEditorAutoCompleteEffect.py:158) - Segmentation cancelled because an input segment was deleted
+[CRITICAL][Qt] 09.12.2021 11:07:37 [] (unknown:0) - The VTKEvent( 17000 ) triggered by vtkObject( vtkMRMLSegmentationNode )  doesn't return data of type vtkObject. 
+The slot ( "1onDisplayNodeModified(vtkObject*, vtkObject*)" ) owned by  QObject( "" )  may be incorrect.
+[CRITICAL][Qt] 09.12.2021 11:07:37 [] (unknown:0) - void __cdecl qSlicerSubjectHierarchyPluginLogic::onDisplayNodeModified(class vtkObject *,class vtkObject *) : Invalid object type calling display node modified event
+[WARNING][VTK] 09.12.2021 11:07:38 [vtkSegmentationHistory (000002861144BA80)] (D:\D\S\Slicer-0\Libs\vtkSegmentationCore\vtkSegmentationHistory.cxx:171) - vtkSegmentation::RestorePreviousState failed: There are no previous state available for restore
+[CRITICAL][Qt] 09.12.2021 11:07:38 [] (unknown:0) - The VTKEvent( 17000 ) triggered by vtkObject( vtkMRMLSegmentationNode )  doesn't return data of type vtkObject. 
+The slot ( "1onDisplayNodeModified(vtkObject*, vtkObject*)" ) owned by  QObject( "" )  may be incorrect.
+[CRITICAL][Qt] 09.12.2021 11:07:38 [] (unknown:0) - void __cdecl qSlicerSubjectHierarchyPluginLogic::onDisplayNodeModified(class vtkObject *,class vtkObject *) : Invalid object type calling display node modified event
+[WARNING][VTK] 09.12.2021 11:07:38 [vtkSegmentationHistory (000002861144BA80)] (D:\D\S\Slicer-0\Libs\vtkSegmentationCore\vtkSegmentationHistory.cxx:171) - vtkSegmentation::RestorePreviousState failed: There are no previous state available for restore
+[CRITICAL][Qt] 09.12.2021 11:07:38 [] (unknown:0) - The VTKEvent( 17000 ) triggered by vtkObject( vtkMRMLSegmentationNode )  doesn't return data of type vtkObject. 
+The slot ( "1onDisplayNodeModified(vtkObject*, vtkObject*)" ) owned by  QObject( "" )  may be incorrect.
+[CRITICAL][Qt] 09.12.2021 11:07:38 [] (unknown:0) - void __cdecl qSlicerSubjectHierarchyPluginLogic::onDisplayNodeModified(class vtkObject *,class vtkObject *) : Invalid object type calling display node modified event
+[CRITICAL][Qt] 09.12.2021 11:23:15 [] (unknown:0) - The VTKEvent( 17000 ) triggered by vtkObject( vtkMRMLSegmentationNode )  doesn't return data of type vtkObject. 
+The slot ( "1onDisplayNodeModified(vtkObject*, vtkObject*)" ) owned by  QObject( "" )  may be incorrect.
+[CRITICAL][Qt] 09.12.2021 11:23:15 [] (unknown:0) - void __cdecl qSlicerSubjectHierarchyPluginLogic::onDisplayNodeModified(class vtkObject *,class vtkObject *) : Invalid object type calling display node modified event
+[INFO][Stream] 09.12.2021 11:25:01 [] (unknown:0) - self.extentGrowthRatio = 0.1
+[INFO][Stream] 09.12.2021 11:25:01 [] (unknown:0) - masterImageExtent = (0, 486, 0, 1025, 0, 371)
+[INFO][Stream] 09.12.2021 11:25:01 [] (unknown:0) - labelsEffectiveExtent = (237, 265, 453, 479, 254, 284)
+[INFO][Stream] 09.12.2021 11:25:01 [] (unknown:0) - labelsExpandedExtent = [234, 268, 450, 482, 251, 287]
+[DEBUG][Qt] 09.12.2021 11:59:24 [] (unknown:0) - Switch to module:  "VolumeRendering"
+[DEBUG][Qt] 09.12.2021 12:01:20 [] (unknown:0) - Switch to module:  "SegmentEditor"
+[DEBUG][Python] 09.12.2021 12:01:58 [Python] (C:\ProgramData\NA-MIC\Slicer 4.11.20200930\lib\Slicer-4.11\qt-scripted-modules\SegmentEditorEffects\AbstractScriptedSegmentEditorAutoCompleteEffect.py:176) - Segmentation update requested
+[DEBUG][Qt] 09.12.2021 12:05:42 [] (unknown:0) - Switch to module:  "VolumeRendering"
+[DEBUG][Qt] 09.12.2021 12:34:13 [] (unknown:0) - Switch to module:  "SegmentEditor"
+[DEBUG][Qt] 10.12.2021 16:00:18 [] (unknown:0) - Switch to module:  ""

@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\dev\SlicerFirstExtension\VirtualDissection\VD\qSlicerVDModule.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\SlicerFirstExtension\VirtualDissection\VD\qSlicerVDModuleWidget.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\SlicerFirstExtension\VirtualDissection\VD\moc_qSlicerVDModule.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\SlicerFirstExtension\VirtualDissection\VD\moc_qSlicerVDModuleWidget.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\SlicerFirstExtension\VirtualDissection\VD\qrc_qSlicerVDModule.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\SlicerFirstExtension\VirtualDissection\VD\qrc_qSlicer.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\dev\SlicerFirstExtension\VirtualDissection\VD\qSlicerVDModule.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\SlicerFirstExtension\VirtualDissection\VD\qSlicerVDModuleWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\SlicerFirstExtension\VirtualDissection\VD\ui_qSlicerVDModuleWidget.h">
+      <Filter>Generated</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\dev\SlicerFirstExtension\VirtualDissection\CMakeFiles\ec4226b1c2eecbc2adef070b075646ac\moc_qSlicerVDModule.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\dev\SlicerFirstExtension\VirtualDissection\CMakeFiles\ec4226b1c2eecbc2adef070b075646ac\moc_qSlicerVDModuleWidget.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\dev\SlicerFirstExtension\VirtualDissection\VD\Resources\UI\qSlicerVDModuleWidget.ui">
+      <Filter>Resources</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\dev\SlicerFirstExtension\VirtualDissection\VD\Resources\qSlicerVDModule.qrc">
+      <Filter>Resources</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\D\S4\Resources\qSlicer.qrc">
+      <Filter>Resources</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\dev\SlicerFirstExtension\VirtualDissection\VD\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{78BF20D2-0DDC-3E74-B1BD-0893E3A7BB0A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated">
+      <UniqueIdentifier>{5F7F834F-D340-3323-A7F8-62C2DCF991C8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{C79FE0C8-E225-3AFB-9741-1345BD92D0CC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{38442ED5-939F-3A7F-A892-13BEB91B67CD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{3388C126-128F-3B80-A97B-10957699EA28}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\dev\SlicerFirstExtension\VirtualDissection\VD\Widgets\qSlicerVDFooBarWidget.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\SlicerFirstExtension\VirtualDissection-build\VD\Widgets\moc_qSlicerVDFooBarWidget.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\SlicerFirstExtension\VirtualDissection-build\VD\Widgets\qrc_qSlicerVDModule.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\SlicerFirstExtension\VirtualDissection-build\VD\Widgets\qrc_qSlicer.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\dev\SlicerFirstExtension\VirtualDissection\VD\Widgets\qSlicerVDFooBarWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\SlicerFirstExtension\VirtualDissection-build\VD\Widgets\ui_qSlicerVDFooBarWidget.h">
+      <Filter>Generated</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\dev\SlicerFirstExtension\VirtualDissection-build\CMakeFiles\7bff5b9e8e2cba86be2a62ed9622b9cb\moc_qSlicerVDFooBarWidget.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\dev\SlicerFirstExtension\VirtualDissection\VD\Resources\UI\qSlicerVDFooBarWidget.ui">
+      <Filter>Resources</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\dev\SlicerFirstExtension\VirtualDissection\VD\Resources\qSlicerVDModule.qrc">
+      <Filter>Resources</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\D\S4\Resources\qSlicer.qrc">
+      <Filter>Resources</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\dev\SlicerFirstExtension\VirtualDissection\VD\Widgets\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{21EF5AC2-0A80-320B-94E5-03A4D05CE722}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated">
+      <UniqueIdentifier>{39901F6D-FF18-3032-82FD-612792338954}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{7490F7D1-D26F-3712-8530-2DCE8FB4F5B3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{9C7C04C9-0207-37D0-8350-9ABA23B13D5E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{8F1B831E-F9CA-3AE2-8E3D-A34FC647ED8E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,17 @@
+# Target labels
+ qSlicerVDModule
+# Source files and their labels
+C:/dev/SlicerFirstExtension/VirtualDissection/VD/qSlicerVDModule.cxx
+C:/dev/SlicerFirstExtension/VirtualDissection/VD/qSlicerVDModule.h
+C:/dev/SlicerFirstExtension/VirtualDissection/VD/qSlicerVDModuleWidget.cxx
+C:/dev/SlicerFirstExtension/VirtualDissection/VD/qSlicerVDModuleWidget.h
+C:/dev/SlicerFirstExtension/VirtualDissection-build/VD/moc_qSlicerVDModule.cpp
+C:/dev/SlicerFirstExtension/VirtualDissection-build/VD/moc_qSlicerVDModuleWidget.cpp
+C:/dev/SlicerFirstExtension/VirtualDissection-build/VD/ui_qSlicerVDModuleWidget.h
+C:/dev/SlicerFirstExtension/VirtualDissection-build/VD/qrc_qSlicerVDModule.cpp
+C:/dev/SlicerFirstExtension/VirtualDissection-build/VD/qrc_qSlicer.cpp
+C:/dev/SlicerFirstExtension/VirtualDissection-build/CMakeFiles/6c19af9acf749184fa76054f724a3679/moc_qSlicerVDModule.cpp.rule
+C:/dev/SlicerFirstExtension/VirtualDissection-build/CMakeFiles/6c19af9acf749184fa76054f724a3679/moc_qSlicerVDModuleWidget.cpp.rule
+C:/dev/SlicerFirstExtension/VirtualDissection/VD/Resources/UI/qSlicerVDModuleWidget.ui
+C:/dev/SlicerFirstExtension/VirtualDissection/VD/Resources/qSlicerVDModule.qrc
+C:/D/S4/Resources/qSlicer.qrc

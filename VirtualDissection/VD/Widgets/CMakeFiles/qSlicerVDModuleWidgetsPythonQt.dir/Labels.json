@@ -1,0 +1,28 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/dev/SlicerFirstExtension/VirtualDissection/VD/Widgets/generated_cpp/osm_qSlicerVDModuleWidgets/osm_qSlicerVDModuleWidgets_init.cpp"
+		},
+		{
+			"file" : "C:/dev/SlicerFirstExtension/VirtualDissection/VD/Widgets/generated_cpp/osm_qSlicerVDModuleWidgets/osm_qSlicerVDModuleWidgets_module_init.cpp"
+		},
+		{
+			"file" : "C:/dev/SlicerFirstExtension/VirtualDissection/VD/Widgets/generated_cpp/osm_qSlicerVDModuleWidgets/moc_osm_qSlicerVDModuleWidgets.cpp"
+		},
+		{
+			"file" : "C:/dev/SlicerFirstExtension/VirtualDissection/CMakeFiles/c2cfa55611b04c4b8aafcd5311762363/osm_qSlicerVDModuleWidgets_init.cpp.rule"
+		},
+		{
+			"file" : "C:/dev/SlicerFirstExtension/VirtualDissection/CMakeFiles/c2cfa55611b04c4b8aafcd5311762363/moc_osm_qSlicerVDModuleWidgets.cpp.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"qSlicerVDModuleWidgets"
+		],
+		"name" : "qSlicerVDModuleWidgetsPythonQt"
+	}
+}

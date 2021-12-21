@@ -1,0 +1,17 @@
+Determining if the CXX compiler accepts the flag -features=no%anachronisms passed with the following output:
+Change Dir: C:/dev/SlicerFirstExtension/VirtualDissection-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe cmTC_e7078.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.0+0538acc04 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30133 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  src.cxx
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_e7078.dir\Debug\\" /Fd"cmTC_e7078.dir\Debug\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue  /bigobj -features=no%%anachronisms "C:\dev\SlicerFirstExtension\VirtualDissection-build\CMakeFiles\CMakeTmp\src.cxx"
+cl : command line warning D9002: ignoring unknown option '-features=no%%anachronisms' [C:\dev\SlicerFirstExtension\VirtualDissection-build\CMakeFiles\CMakeTmp\cmTC_e7078.vcxproj]
+  cmTC_e7078.vcxproj -> C:\dev\SlicerFirstExtension\VirtualDissection-build\CMakeFiles\CMakeTmp\Debug\cmTC_e7078.exe
+
+
+Source file was:
+int main() { return 0;}
+

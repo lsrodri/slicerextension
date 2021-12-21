@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\dev\SlicerFirstExtension\VirtualDissection\VD\Widgets\generated_cpp\osm_qSlicerVDModuleWidgets\osm_qSlicerVDModuleWidgets_init.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\SlicerFirstExtension\VirtualDissection\VD\Widgets\generated_cpp\osm_qSlicerVDModuleWidgets\osm_qSlicerVDModuleWidgets_module_init.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\SlicerFirstExtension\VirtualDissection\VD\Widgets\generated_cpp\osm_qSlicerVDModuleWidgets\moc_osm_qSlicerVDModuleWidgets.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\dev\SlicerFirstExtension\VirtualDissection\CMakeFiles\c2cfa55611b04c4b8aafcd5311762363\osm_qSlicerVDModuleWidgets_init.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\dev\SlicerFirstExtension\VirtualDissection\CMakeFiles\c2cfa55611b04c4b8aafcd5311762363\moc_osm_qSlicerVDModuleWidgets.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\dev\SlicerFirstExtension\VirtualDissection\VD\Widgets\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{78BF20D2-0DDC-3E74-B1BD-0893E3A7BB0A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{3388C126-128F-3B80-A97B-10957699EA28}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

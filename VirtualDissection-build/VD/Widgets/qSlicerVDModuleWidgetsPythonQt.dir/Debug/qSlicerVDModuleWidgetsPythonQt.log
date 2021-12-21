@@ -1,0 +1,10 @@
+﻿  PythonQt Wrapping - Generating generated_cpp/osm_qSlicerVDModuleWidgets/osm_qSlicerVDModuleWidgets_init.cpp
+  Building Custom Rule C:/dev/SlicerFirstExtension/VirtualDissection/VD/Widgets/CMakeLists.txt
+  Generating generated_cpp/osm_qSlicerVDModuleWidgets/moc_osm_qSlicerVDModuleWidgets.cpp
+  osm_qSlicerVDModuleWidgets_init.cpp
+C:\D\S4R\CTK-build\CMakeExternals\Install\include\PythonQt\PythonQtClassWrapper.h(66,16): warning C5208: unnamed class used in typedef name cannot declare members other than non-static data members, member enumerations, or member classes
+  osm_qSlicerVDModuleWidgets_module_init.cpp
+C:\D\S4R\CTK-build\CMakeExternals\Install\include\PythonQt\PythonQtClassWrapper.h(66,16): warning C5208: unnamed class used in typedef name cannot declare members other than non-static data members, member enumerations, or member classes
+  moc_osm_qSlicerVDModuleWidgets.cpp
+  Generating Code...
+LINK : fatal error LNK1104: cannot open file '..\..\lib\Slicer-4.13\qt-loadable-modules\Debug\qSlicerVDModuleWidgets.lib'
